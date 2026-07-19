@@ -61,3 +61,32 @@ if (inlineKeyJson) {
     void error;
   }
 }
+
+// Derive GOOGLE_CLOUD_PROJECT from the key's own project_id when it's missing or
+// still the .env.example placeholder — Vertex 403s ("CONSUMER_INVALID") on a
+// bogus project id, and the service-account key already names the right project.
+const PROJECT_PLACEHOLDER = "your-gcp-project-id";
+if (!process.env.GOOGLE_CLOUD_PROJECT || process.env.GOOGLE_CLOUD_PROJECT === PROJECT_PLACEHOLDER) {
+  let keyJson = inlineKeyJson;
+  if (!keyJson) {
+    const keyPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+    if (keyPath && existsSync(keyPath)) {
+      try {
+        keyJson = readFileSync(keyPath, "utf8");
+      } catch {
+        keyJson = undefined;
+      }
+    }
+  }
+  if (keyJson) {
+    try {
+      const projectId = (JSON.parse(keyJson) as { project_id?: string }).project_id;
+      if (projectId) {
+        process.env.GOOGLE_CLOUD_PROJECT = projectId;
+        console.log(`GOOGLE_CLOUD_PROJECT resolved from service-account key: ${projectId}`);
+      }
+    } catch {
+      // malformed key JSON — leave the project unset; the API call fails loudly.
+    }
+  }
+}
