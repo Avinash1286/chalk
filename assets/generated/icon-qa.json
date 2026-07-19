@@ -1,0 +1,2852 @@
+{
+  "openmoji:1F45E": {
+    "darkFrac": 0.333,
+    "fillFrac": 0.272,
+    "denied": false
+  },
+  "openmoji:1F355": {
+    "darkFrac": 0.404,
+    "fillFrac": 0.247,
+    "denied": false
+  },
+  "openmoji:1F97F": {
+    "darkFrac": 0.343,
+    "fillFrac": 0.18,
+    "denied": false
+  },
+  "openmoji:1F45F": {
+    "darkFrac": 0.422,
+    "fillFrac": 0.272,
+    "denied": false
+  },
+  "openmoji:1F3BD": {
+    "darkFrac": 0.296,
+    "fillFrac": 0.478,
+    "denied": false
+  },
+  "openmoji:1F967": {
+    "darkFrac": 0.211,
+    "fillFrac": 0.44,
+    "denied": false
+  },
+  "openmoji:1F4CA": {
+    "darkFrac": 0.362,
+    "fillFrac": 0.502,
+    "solidFrac": 0.043,
+    "denied": false
+  },
+  "openmoji:1F4C9": {
+    "darkFrac": 0.332,
+    "fillFrac": 0.502,
+    "solidFrac": 0.026,
+    "denied": false
+  },
+  "openmoji:1F197": {
+    "darkFrac": 0.221,
+    "fillFrac": 0.502,
+    "solidFrac": 0.016,
+    "denied": false
+  },
+  "openmoji:1F4F1": {
+    "darkFrac": 0.32,
+    "fillFrac": 0.45,
+    "solidFrac": 0.024,
+    "denied": false
+  },
+  "openmoji:1F193": {
+    "darkFrac": 0,
+    "fillFrac": 0.497,
+    "denied": false
+  },
+  "openmoji:1F370": {
+    "darkFrac": 0.291,
+    "fillFrac": 0.554,
+    "denied": false
+  },
+  "openmoji:1FAAA": {
+    "darkFrac": 0.262,
+    "fillFrac": 0.526,
+    "denied": false
+  },
+  "openmoji:1F9FE": {
+    "darkFrac": 0.311,
+    "fillFrac": 0.237,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F4B5": {
+    "darkFrac": 0.42,
+    "fillFrac": 0.344,
+    "solidFrac": 0.021,
+    "denied": false
+  },
+  "openmoji:1F3E2": {
+    "darkFrac": 0.3,
+    "fillFrac": 0.412,
+    "solidFrac": 0.014,
+    "denied": false
+  },
+  "openmoji:E092": {
+    "darkFrac": 0.435,
+    "fillFrac": 0.453,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F3EB": {
+    "darkFrac": 0.471,
+    "fillFrac": 0.471,
+    "denied": false
+  },
+  "openmoji:1F3ED": {
+    "darkFrac": 0.645,
+    "fillFrac": 0.293,
+    "solidFrac": 0.138,
+    "denied": false
+  },
+  "openmoji:1F3DB": {
+    "darkFrac": 0.525,
+    "fillFrac": 0.375,
+    "solidFrac": 0.02,
+    "denied": false
+  },
+  "openmoji:1F9D1-200D-1F3ED": {
+    "darkFrac": 0.524,
+    "fillFrac": 0.292,
+    "solidFrac": 0.185,
+    "denied": false
+  },
+  "openmoji:E2CC": {
+    "darkFrac": 0.56,
+    "fillFrac": 0.313,
+    "denied": false
+  },
+  "openmoji:25D0": {
+    "darkFrac": 0.608,
+    "fillFrac": 0.527,
+    "denied": true
+  },
+  "openmoji:25D1": {
+    "darkFrac": 0.604,
+    "fillFrac": 0.53,
+    "denied": true
+  },
+  "openmoji:1F680": {
+    "darkFrac": 0.41,
+    "fillFrac": 0.271,
+    "solidFrac": 0.035,
+    "denied": false
+  },
+  "openmoji:1F9D1-200D-1F680": {
+    "darkFrac": 0.42,
+    "fillFrac": 0.281,
+    "solidFrac": 0.074,
+    "denied": false
+  },
+  "openmoji:1F468-200D-1F680": {
+    "darkFrac": 0.42,
+    "fillFrac": 0.281,
+    "solidFrac": 0.074,
+    "denied": false
+  },
+  "openmoji:1F4B0": {
+    "darkFrac": 0.306,
+    "fillFrac": 0.361,
+    "solidFrac": 0.083,
+    "denied": false
+  },
+  "openmoji:1F4B8": {
+    "darkFrac": 0.494,
+    "fillFrac": 0.203,
+    "solidFrac": 0.13,
+    "denied": false
+  },
+  "openmoji:1F45B": {
+    "darkFrac": 0.305,
+    "fillFrac": 0.379,
+    "solidFrac": 0.053,
+    "denied": false
+  },
+  "openmoji:1F4B1": {
+    "darkFrac": 0.491,
+    "fillFrac": 0.276,
+    "solidFrac": 0.089,
+    "denied": false
+  },
+  "openmoji:1F3E6": {
+    "darkFrac": 0.484,
+    "fillFrac": 0.373,
+    "solidFrac": 0.048,
+    "denied": false
+  },
+  "openmoji:1F4B9": {
+    "darkFrac": 0.784,
+    "fillFrac": 0.131,
+    "solidFrac": 0.072,
+    "denied": false
+  },
+  "openmoji:1F310": {
+    "darkFrac": 0.384,
+    "fillFrac": 0.527,
+    "solidFrac": 0.067,
+    "denied": false
+  },
+  "openmoji:1F5FA": {
+    "darkFrac": 0.36,
+    "fillFrac": 0.533,
+    "solidFrac": 0.011,
+    "denied": false
+  },
+  "openmoji:1F30E": {
+    "darkFrac": 0.235,
+    "fillFrac": 0.527,
+    "solidFrac": 0.004,
+    "denied": false
+  },
+  "openmoji:E240": {
+    "darkFrac": 0.349,
+    "fillFrac": 0.238,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:2120": {
+    "darkFrac": 0.917,
+    "fillFrac": 0.225,
+    "denied": false
+  },
+  "openmoji:2122": {
+    "darkFrac": 1,
+    "fillFrac": 0.192,
+    "denied": false
+  },
+  "openmoji:1F9D1": {
+    "darkFrac": 0.342,
+    "fillFrac": 0.272,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F9CD": {
+    "darkFrac": 0.571,
+    "fillFrac": 0.163,
+    "solidFrac": 0.028,
+    "denied": false
+  },
+  "openmoji:1F468-200D-1F4BC": {
+    "darkFrac": 0.594,
+    "fillFrac": 0.34,
+    "denied": false
+  },
+  "openmoji:1F481-1F3FD": {
+    "darkFrac": 0.422,
+    "fillFrac": 0.32,
+    "denied": false
+  },
+  "openmoji:1F481-1F3FB": {
+    "darkFrac": 0.381,
+    "fillFrac": 0.32,
+    "denied": false
+  },
+  "openmoji:E243": {
+    "darkFrac": 1,
+    "fillFrac": 0.081,
+    "solidFrac": 0.151,
+    "denied": false
+  },
+  "openmoji:E32B": {
+    "darkFrac": 0.288,
+    "fillFrac": 0.277,
+    "solidFrac": 0.011,
+    "denied": false
+  },
+  "openmoji:2696": {
+    "darkFrac": 0.812,
+    "fillFrac": 0.171,
+    "denied": false
+  },
+  "openmoji:264E": {
+    "darkFrac": 0.221,
+    "fillFrac": 0.502,
+    "denied": false
+  },
+  "openmoji:2B24": {
+    "darkFrac": 1,
+    "fillFrac": 0.606,
+    "solidFrac": 0.917,
+    "denied": true
+  },
+  "openmoji:1F469": {
+    "darkFrac": 0.269,
+    "fillFrac": 0.345,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F45C": {
+    "darkFrac": 0.406,
+    "fillFrac": 0.38,
+    "solidFrac": 0.124,
+    "denied": false
+  },
+  "openmoji:1F45D": {
+    "darkFrac": 0.288,
+    "fillFrac": 0.345,
+    "solidFrac": 0.013,
+    "denied": false
+  },
+  "openmoji:1F4C8": {
+    "darkFrac": 0.349,
+    "fillFrac": 0.502,
+    "solidFrac": 0.027,
+    "denied": false
+  },
+  "openmoji:1F9D1-1F3FB": {
+    "darkFrac": 0.358,
+    "fillFrac": 0.272,
+    "denied": false
+  },
+  "openmoji:E253": {
+    "darkFrac": 1,
+    "fillFrac": 0.068,
+    "solidFrac": 0.07,
+    "denied": false
+  },
+  "openmoji:1F53D": {
+    "darkFrac": 1,
+    "fillFrac": 0.049,
+    "denied": false
+  },
+  "openmoji:1F50D": {
+    "darkFrac": 0.524,
+    "fillFrac": 0.193,
+    "solidFrac": 0.236,
+    "denied": false
+  },
+  "openmoji:1F50E": {
+    "darkFrac": 0.522,
+    "fillFrac": 0.191,
+    "solidFrac": 0.226,
+    "denied": false
+  },
+  "openmoji:2195": {
+    "darkFrac": 1,
+    "fillFrac": 0.2,
+    "solidFrac": 0.739,
+    "denied": true
+  },
+  "openmoji:2194": {
+    "darkFrac": 1,
+    "fillFrac": 0.2,
+    "solidFrac": 0.739,
+    "denied": true
+  },
+  "openmoji:2B0D": {
+    "darkFrac": 1,
+    "fillFrac": 0.205,
+    "solidFrac": 0.759,
+    "denied": true
+  },
+  "openmoji:1F36A": {
+    "darkFrac": 0.228,
+    "fillFrac": 0.511,
+    "solidFrac": 0.06,
+    "denied": false
+  },
+  "openmoji:E1C9": {
+    "darkFrac": 0.322,
+    "fillFrac": 0.438,
+    "solidFrac": 0.028,
+    "denied": false
+  },
+  "openmoji:F8FF": {
+    "darkFrac": 0.265,
+    "fillFrac": 0.322,
+    "solidFrac": 0.056,
+    "denied": false
+  },
+  "openmoji:2708": {
+    "darkFrac": 0.436,
+    "fillFrac": 0.283,
+    "denied": false
+  },
+  "openmoji:1F6EC": {
+    "darkFrac": 0.569,
+    "fillFrac": 0.15,
+    "denied": false
+  },
+  "openmoji:1F9D1-200D-2708-FE0F": {
+    "darkFrac": 0.538,
+    "fillFrac": 0.288,
+    "denied": false
+  },
+  "openmoji:1F199": {
+    "darkFrac": 0.221,
+    "fillFrac": 0.502,
+    "denied": false
+  },
+  "openmoji:1F3B0": {
+    "darkFrac": 0.4,
+    "fillFrac": 0.351,
+    "denied": false
+  },
+  "openmoji:1F4B2": {
+    "darkFrac": 0.517,
+    "fillFrac": 0.223,
+    "solidFrac": 0.008,
+    "denied": false
+  },
+  "openmoji:1F4C4": {
+    "darkFrac": 0.221,
+    "fillFrac": 0.395,
+    "solidFrac": 0.04,
+    "denied": false
+  },
+  "openmoji:1FA99": {
+    "darkFrac": 0.252,
+    "fillFrac": 0.485,
+    "solidFrac": 0.021,
+    "denied": false
+  },
+  "openmoji:1F451": {
+    "darkFrac": 0.365,
+    "fillFrac": 0.437,
+    "solidFrac": 0.079,
+    "denied": false
+  },
+  "openmoji:2709": {
+    "darkFrac": 0.368,
+    "fillFrac": 0.355,
+    "solidFrac": 0.056,
+    "denied": false
+  },
+  "openmoji:1F4E8": {
+    "darkFrac": 0.415,
+    "fillFrac": 0.217,
+    "solidFrac": 0.024,
+    "denied": false
+  },
+  "openmoji:1FAF1-1F3FD-200D-1FAF2-1F3FC": {
+    "darkFrac": 0.282,
+    "fillFrac": 0.505,
+    "denied": false
+  },
+  "openmoji:1FAF1-1F3FD-200D-1FAF2-1F3FB": {
+    "darkFrac": 0.279,
+    "fillFrac": 0.505,
+    "denied": false
+  },
+  "openmoji:1FAF1-1F3FC-200D-1FAF2-1F3FB": {
+    "darkFrac": 0.273,
+    "fillFrac": 0.505,
+    "denied": false
+  },
+  "test2:rocket-color": {
+    "darkFrac": 0.41,
+    "fillFrac": 0.271,
+    "solidFrac": 0.035,
+    "denied": false
+  },
+  "test2:gear-outline": {
+    "darkFrac": 0.412,
+    "fillFrac": 0.306,
+    "solidFrac": 0.014,
+    "denied": false
+  },
+  "openmoji:1F964": {
+    "darkFrac": 0.289,
+    "fillFrac": 0.307,
+    "solidFrac": 0.02,
+    "denied": false
+  },
+  "openmoji:E20C": {
+    "darkFrac": 0.493,
+    "fillFrac": 0.487,
+    "solidFrac": 0.222,
+    "denied": false
+  },
+  "openmoji:E153": {
+    "darkFrac": 0.302,
+    "fillFrac": 0.422,
+    "solidFrac": 0.061,
+    "denied": false
+  },
+  "openmoji:2B1B": {
+    "darkFrac": 1,
+    "fillFrac": 0.561,
+    "solidFrac": 0.895,
+    "denied": true
+  },
+  "openmoji:2B1C": {
+    "darkFrac": 0.207,
+    "fillFrac": 0.561,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F512": {
+    "darkFrac": 0.327,
+    "fillFrac": 0.302,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F510": {
+    "darkFrac": 0.378,
+    "fillFrac": 0.381,
+    "solidFrac": 0.024,
+    "denied": false
+  },
+  "openmoji:1FAA8": {
+    "darkFrac": 0.513,
+    "fillFrac": 0.263,
+    "solidFrac": 0.524,
+    "denied": false
+  },
+  "openmoji:E05B": {
+    "darkFrac": 0.605,
+    "fillFrac": 0.223,
+    "solidFrac": 0.395,
+    "denied": false
+  },
+  "openmoji:E269": {
+    "darkFrac": 0.592,
+    "fillFrac": 0.227,
+    "solidFrac": 0.006,
+    "denied": false
+  },
+  "openmoji:E249": {
+    "darkFrac": 0.726,
+    "fillFrac": 0.142,
+    "solidFrac": 0.025,
+    "denied": false
+  },
+  "openmoji:1F6DC": {
+    "darkFrac": 0.276,
+    "fillFrac": 0.5,
+    "solidFrac": 0.025,
+    "denied": false
+  },
+  "openmoji:1F5A5": {
+    "darkFrac": 0.229,
+    "fillFrac": 0.664,
+    "solidFrac": 0.017,
+    "denied": false
+  },
+  "openmoji:E0FF": {
+    "darkFrac": 0.278,
+    "fillFrac": 0.527,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F4D2": {
+    "darkFrac": 0.264,
+    "fillFrac": 0.555,
+    "solidFrac": 0.053,
+    "denied": false
+  },
+  "openmoji:1F4D3": {
+    "darkFrac": 0.265,
+    "fillFrac": 0.521,
+    "solidFrac": 0.028,
+    "denied": false
+  },
+  "openmoji:E1C7": {
+    "darkFrac": 0.374,
+    "fillFrac": 0.298,
+    "solidFrac": 0.023,
+    "denied": false
+  },
+  "openmoji:1F4D6": {
+    "darkFrac": 0.229,
+    "fillFrac": 0.545,
+    "solidFrac": 0.021,
+    "denied": false
+  },
+  "openmoji:1F4C3": {
+    "darkFrac": 0.386,
+    "fillFrac": 0.378,
+    "solidFrac": 0.006,
+    "denied": false
+  },
+  "openmoji:E107": {
+    "darkFrac": 0.324,
+    "fillFrac": 0.282,
+    "solidFrac": 0.052,
+    "denied": false
+  },
+  "openmoji:1F9CA": {
+    "darkFrac": 0.258,
+    "fillFrac": 0.332,
+    "solidFrac": 0.02,
+    "denied": false
+  },
+  "openmoji:25FC": {
+    "darkFrac": 1,
+    "fillFrac": 0.34,
+    "solidFrac": 0.862,
+    "denied": true
+  },
+  "openmoji:1F513": {
+    "darkFrac": 0.316,
+    "fillFrac": 0.299,
+    "solidFrac": 0.005,
+    "denied": false
+  },
+  "openmoji:26D3": {
+    "darkFrac": 0.585,
+    "fillFrac": 0.173,
+    "solidFrac": 0.06,
+    "denied": false
+  },
+  "openmoji:E25D": {
+    "darkFrac": 0.253,
+    "fillFrac": 0.4,
+    "solidFrac": 0.009,
+    "denied": false
+  },
+  "openmoji:270F": {
+    "darkFrac": 0.389,
+    "fillFrac": 0.188,
+    "solidFrac": 0.065,
+    "denied": false
+  },
+  "openmoji:E1C1": {
+    "darkFrac": 0.291,
+    "fillFrac": 0.438,
+    "solidFrac": 0.017,
+    "denied": false
+  },
+  "openmoji:E0A1": {
+    "darkFrac": 0.718,
+    "fillFrac": 0.171,
+    "solidFrac": 0.092,
+    "denied": false
+  },
+  "openmoji:1F1F7-1F1F8": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:2699": {
+    "darkFrac": 0.412,
+    "fillFrac": 0.306,
+    "solidFrac": 0.014,
+    "denied": false
+  },
+  "openmoji:1F9E9": {
+    "darkFrac": 0.302,
+    "fillFrac": 0.352,
+    "solidFrac": 0.02,
+    "denied": false
+  },
+  "openmoji:2BBA": {
+    "darkFrac": 0.205,
+    "fillFrac": 0.416,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F50F": {
+    "darkFrac": 0.485,
+    "fillFrac": 0.224,
+    "solidFrac": 0.16,
+    "denied": false
+  },
+  "openmoji:231A": {
+    "darkFrac": 0.34,
+    "fillFrac": 0.331,
+    "solidFrac": 0.027,
+    "denied": false
+  },
+  "openmoji:23F2": {
+    "darkFrac": 0.348,
+    "fillFrac": 0.424,
+    "solidFrac": 0.032,
+    "denied": false
+  },
+  "openmoji:E0AB": {
+    "darkFrac": 0.275,
+    "fillFrac": 0.492,
+    "solidFrac": 0.026,
+    "denied": false
+  },
+  "openmoji:1F4B6": {
+    "darkFrac": 0.261,
+    "fillFrac": 0.349,
+    "solidFrac": 0.005,
+    "denied": false
+  },
+  "openmoji:26CF": {
+    "darkFrac": 0.683,
+    "fillFrac": 0.13,
+    "solidFrac": 0.068,
+    "denied": false
+  },
+  "openmoji:2692": {
+    "darkFrac": 0.704,
+    "fillFrac": 0.191,
+    "solidFrac": 0.152,
+    "denied": false
+  },
+  "openmoji:E345": {
+    "darkFrac": 0.601,
+    "fillFrac": 0.144,
+    "solidFrac": 0.055,
+    "denied": false
+  },
+  "openmoji:1F48E": {
+    "darkFrac": 0.426,
+    "fillFrac": 0.421,
+    "solidFrac": 0.128,
+    "denied": false
+  },
+  "openmoji:1F536": {
+    "darkFrac": 0.255,
+    "fillFrac": 0.28,
+    "solidFrac": 0.183,
+    "denied": false
+  },
+  "openmoji:1F538": {
+    "darkFrac": 0.269,
+    "fillFrac": 0.171,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F511": {
+    "darkFrac": 0.37,
+    "fillFrac": 0.181,
+    "solidFrac": 0.019,
+    "denied": false
+  },
+  "openmoji:1F5DD": {
+    "darkFrac": 1,
+    "fillFrac": 0.165,
+    "solidFrac": 0.675,
+    "denied": true
+  },
+  "openmoji:E1D1": {
+    "darkFrac": 0.615,
+    "fillFrac": 0.344,
+    "solidFrac": 0.448,
+    "denied": false
+  },
+  "openmoji:1F4E9": {
+    "darkFrac": 0.345,
+    "fillFrac": 0.358,
+    "solidFrac": 0.042,
+    "denied": false
+  },
+  "openmoji:E255": {
+    "darkFrac": 0.272,
+    "fillFrac": 0.41,
+    "solidFrac": 0.016,
+    "denied": false
+  },
+  "openmoji:00AE": {
+    "darkFrac": 0.525,
+    "fillFrac": 0.53,
+    "solidFrac": 0.527,
+    "denied": false
+  },
+  "openmoji:00A9": {
+    "darkFrac": 0.503,
+    "fillFrac": 0.53,
+    "solidFrac": 0.528,
+    "denied": false
+  },
+  "openmoji:2795": {
+    "darkFrac": 0.277,
+    "fillFrac": 0.194,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E25A": {
+    "darkFrac": 0.33,
+    "fillFrac": 0.289,
+    "solidFrac": 0.155,
+    "denied": false
+  },
+  "openmoji:E06B": {
+    "darkFrac": 0.639,
+    "fillFrac": 0.42,
+    "solidFrac": 0.454,
+    "denied": true
+  },
+  "openmoji:1F12F": {
+    "darkFrac": 0.503,
+    "fillFrac": 0.53,
+    "solidFrac": 0.528,
+    "denied": false
+  },
+  "openmoji:E254": {
+    "darkFrac": 0.663,
+    "fillFrac": 0.194,
+    "solidFrac": 0.03,
+    "denied": false
+  },
+  "openmoji:E1CB": {
+    "darkFrac": 0.948,
+    "fillFrac": 0.125,
+    "solidFrac": 0.044,
+    "denied": false
+  },
+  "openmoji:E09E": {
+    "darkFrac": 0.335,
+    "fillFrac": 0.387,
+    "solidFrac": 0.067,
+    "denied": false
+  },
+  "openmoji:E1D8": {
+    "darkFrac": 0.465,
+    "fillFrac": 0.502,
+    "solidFrac": 0.043,
+    "denied": false
+  },
+  "openmoji:1F6E1": {
+    "darkFrac": 0.319,
+    "fillFrac": 0.314,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E098": {
+    "darkFrac": 0.317,
+    "fillFrac": 0.467,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F482-1F3FF": {
+    "darkFrac": 0.641,
+    "fillFrac": 0.306,
+    "solidFrac": 0.512,
+    "denied": false
+  },
+  "openmoji:1F523": {
+    "darkFrac": 0.514,
+    "fillFrac": 0.502,
+    "solidFrac": 0.407,
+    "denied": false
+  },
+  "openmoji:1F4B3": {
+    "darkFrac": 0.399,
+    "fillFrac": 0.357,
+    "solidFrac": 0.22,
+    "denied": false
+  },
+  "openmoji:E0CC": {
+    "darkFrac": 0.348,
+    "fillFrac": 0.272,
+    "solidFrac": 0.009,
+    "denied": false
+  },
+  "openmoji:25AD": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:2747": {
+    "darkFrac": 0.202,
+    "fillFrac": 0.557,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E101": {
+    "darkFrac": 0.423,
+    "fillFrac": 0.329,
+    "solidFrac": 0.265,
+    "denied": false
+  },
+  "openmoji:E246": {
+    "darkFrac": 0.423,
+    "fillFrac": 0.258,
+    "solidFrac": 0.008,
+    "denied": false
+  },
+  "openmoji:1F578": {
+    "darkFrac": 0.63,
+    "fillFrac": 0.274,
+    "solidFrac": 0.158,
+    "denied": false
+  },
+  "openmoji:E1D9": {
+    "darkFrac": 0.515,
+    "fillFrac": 0.533,
+    "solidFrac": 0.006,
+    "denied": false
+  },
+  "openmoji:1F4D7": {
+    "darkFrac": 0.386,
+    "fillFrac": 0.559,
+    "solidFrac": 0.022,
+    "denied": false
+  },
+  "openmoji:F000": {
+    "darkFrac": 0.425,
+    "fillFrac": 0.4,
+    "solidFrac": 0.265,
+    "denied": false
+  },
+  "openmoji:1F587": {
+    "darkFrac": 1,
+    "fillFrac": 0.169,
+    "solidFrac": 0.074,
+    "denied": false
+  },
+  "openmoji:1F4F2": {
+    "darkFrac": 0.464,
+    "fillFrac": 0.327,
+    "solidFrac": 0.149,
+    "denied": false
+  },
+  "openmoji:E096": {
+    "darkFrac": 0.665,
+    "fillFrac": 0.465,
+    "solidFrac": 0.589,
+    "denied": true
+  },
+  "openmoji:1F4E7": {
+    "darkFrac": 0.322,
+    "fillFrac": 0.34,
+    "solidFrac": 0.06,
+    "denied": false
+  },
+  "openmoji:1F44D": {
+    "darkFrac": 0.343,
+    "fillFrac": 0.317,
+    "solidFrac": 0.004,
+    "denied": false
+  },
+  "openmoji:E08F": {
+    "darkFrac": 0.269,
+    "fillFrac": 0.319,
+    "solidFrac": 0.005,
+    "denied": false
+  },
+  "openmoji:E247": {
+    "darkFrac": 0.261,
+    "fillFrac": 0.4,
+    "solidFrac": 0.013,
+    "denied": false
+  },
+  "openmoji:E1C4": {
+    "darkFrac": 0.544,
+    "fillFrac": 0.138,
+    "solidFrac": 0.058,
+    "denied": false
+  },
+  "openmoji:E04B": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F3F3-FE0F-200D-1F4CC-200D-2699-FE0F": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F506": {
+    "darkFrac": 0.42,
+    "fillFrac": 0.207,
+    "solidFrac": 0.06,
+    "denied": false
+  },
+  "openmoji:1F4BD": {
+    "darkFrac": 0.638,
+    "fillFrac": 0.561,
+    "solidFrac": 0.683,
+    "denied": true
+  },
+  "openmoji:1F5A8": {
+    "darkFrac": 0.324,
+    "fillFrac": 0.723,
+    "solidFrac": 0.198,
+    "denied": false
+  },
+  "openmoji:1F4B7": {
+    "darkFrac": 0.234,
+    "fillFrac": 0.349,
+    "solidFrac": 0.011,
+    "denied": false
+  },
+  "openmoji:1F9F3": {
+    "darkFrac": 0.443,
+    "fillFrac": 0.421,
+    "solidFrac": 0.282,
+    "denied": false
+  },
+  "openmoji:1F3B8": {
+    "darkFrac": 0.535,
+    "fillFrac": 0.142,
+    "solidFrac": 0.017,
+    "denied": false
+  },
+  "openmoji:1F48D": {
+    "darkFrac": 0.496,
+    "fillFrac": 0.158,
+    "solidFrac": 0.061,
+    "denied": false
+  },
+  "openmoji:1F4EE": {
+    "darkFrac": 0.438,
+    "fillFrac": 0.394,
+    "solidFrac": 0.106,
+    "denied": false
+  },
+  "openmoji:1F4ED": {
+    "darkFrac": 0.623,
+    "fillFrac": 0.294,
+    "solidFrac": 0.547,
+    "denied": false
+  },
+  "openmoji:1F4EA": {
+    "darkFrac": 0.313,
+    "fillFrac": 0.285,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:E259": {
+    "darkFrac": 0.364,
+    "fillFrac": 0.366,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E24C": {
+    "darkFrac": 0.156,
+    "fillFrac": 0.42,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F468": {
+    "darkFrac": 0.347,
+    "fillFrac": 0.266,
+    "solidFrac": 0.023,
+    "denied": false
+  },
+  "openmoji:1F9D1-1F3FD": {
+    "darkFrac": 0.407,
+    "fillFrac": 0.272,
+    "solidFrac": 0.129,
+    "denied": false
+  },
+  "openmoji:1F6E3": {
+    "darkFrac": 0.332,
+    "fillFrac": 0.323,
+    "solidFrac": 0.174,
+    "denied": false
+  },
+  "openmoji:E206": {
+    "darkFrac": 0.268,
+    "fillFrac": 0.5,
+    "solidFrac": 0.013,
+    "denied": false
+  },
+  "openmoji:1F6A7": {
+    "darkFrac": 0.608,
+    "fillFrac": 0.325,
+    "solidFrac": 0.321,
+    "denied": false
+  },
+  "openmoji:E252": {
+    "darkFrac": 1,
+    "fillFrac": 0.046,
+    "solidFrac": 0.133,
+    "denied": false
+  },
+  "openmoji:1F9C9": {
+    "darkFrac": 0.236,
+    "fillFrac": 0.406,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F31F": {
+    "darkFrac": 0.389,
+    "fillFrac": 0.328,
+    "solidFrac": 0.051,
+    "denied": false
+  },
+  "openmoji:E261": {
+    "darkFrac": 0.661,
+    "fillFrac": 0.288,
+    "solidFrac": 0.048,
+    "denied": false
+  },
+  "openmoji:E081": {
+    "darkFrac": 0.362,
+    "fillFrac": 0.243,
+    "solidFrac": 0.01,
+    "denied": false
+  },
+  "openmoji:E30A": {
+    "darkFrac": 0.344,
+    "fillFrac": 0.243,
+    "solidFrac": 0.052,
+    "denied": false
+  },
+  "openmoji:1F4E5": {
+    "darkFrac": 0.359,
+    "fillFrac": 0.218,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E266": {
+    "darkFrac": 0.318,
+    "fillFrac": 0.253,
+    "solidFrac": 0.065,
+    "denied": false
+  },
+  "openmoji:1F4E4": {
+    "darkFrac": 0.38,
+    "fillFrac": 0.222,
+    "solidFrac": 0.01,
+    "denied": false
+  },
+  "openmoji:25AC": {
+    "darkFrac": 1,
+    "fillFrac": 0.533,
+    "solidFrac": 0.889,
+    "denied": true
+  },
+  "openmoji:E24E": {
+    "darkFrac": 1,
+    "fillFrac": 0.064,
+    "solidFrac": 0.324,
+    "denied": false
+  },
+  "openmoji:25FD": {
+    "darkFrac": 0.206,
+    "fillFrac": 0.219,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:25AB": {
+    "darkFrac": 0.354,
+    "fillFrac": 0.172,
+    "solidFrac": 0.029,
+    "denied": false
+  },
+  "openmoji:E05D": {
+    "darkFrac": 0,
+    "fillFrac": 0.342,
+    "solidFrac": 0,
+    "denied": true
+  },
+  "openmoji:1F4EC": {
+    "darkFrac": 0.568,
+    "fillFrac": 0.294,
+    "solidFrac": 0.423,
+    "denied": false
+  },
+  "openmoji:1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2": {
+    "darkFrac": 0.232,
+    "fillFrac": 0.395,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:2328": {
+    "darkFrac": 0.368,
+    "fillFrac": 0.495,
+    "solidFrac": 0.017,
+    "denied": false
+  },
+  "openmoji:1F469-200D-1F4BB": {
+    "darkFrac": 0.397,
+    "fillFrac": 0.391,
+    "solidFrac": 0.028,
+    "denied": false
+  },
+  "openmoji:2666": {
+    "darkFrac": 0.255,
+    "fillFrac": 0.238,
+    "solidFrac": 0.029,
+    "denied": false
+  },
+  "openmoji:1F574": {
+    "darkFrac": 0.694,
+    "fillFrac": 0.141,
+    "solidFrac": 0.129,
+    "denied": false
+  },
+  "openmoji:1F574-1F3FB": {
+    "darkFrac": 0.694,
+    "fillFrac": 0.141,
+    "solidFrac": 0.129,
+    "denied": false
+  },
+  "openmoji:1F574-1F3FD": {
+    "darkFrac": 0.762,
+    "fillFrac": 0.141,
+    "solidFrac": 0.194,
+    "denied": false
+  },
+  "openmoji:E100": {
+    "darkFrac": 0.326,
+    "fillFrac": 0.336,
+    "solidFrac": 0.04,
+    "denied": false
+  },
+  "openmoji:1F194": {
+    "darkFrac": 0,
+    "fillFrac": 0.497,
+    "solidFrac": 0,
+    "denied": true
+  },
+  "openmoji:1F517": {
+    "darkFrac": 0.56,
+    "fillFrac": 0.202,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E24F": {
+    "darkFrac": 1,
+    "fillFrac": 0.05,
+    "solidFrac": 0.096,
+    "denied": false
+  },
+  "openmoji:1F4FB": {
+    "darkFrac": 0.489,
+    "fillFrac": 0.371,
+    "solidFrac": 0.045,
+    "denied": false
+  },
+  "openmoji:1F4E1": {
+    "darkFrac": 0.642,
+    "fillFrac": 0.168,
+    "solidFrac": 0.153,
+    "denied": false
+  },
+  "openmoji:1F5FC": {
+    "darkFrac": 0.624,
+    "fillFrac": 0.242,
+    "solidFrac": 0.046,
+    "denied": false
+  },
+  "openmoji:E058": {
+    "darkFrac": 0.379,
+    "fillFrac": 0.314,
+    "solidFrac": 0.058,
+    "denied": false
+  },
+  "openmoji:E24B": {
+    "darkFrac": 0.272,
+    "fillFrac": 0.36,
+    "solidFrac": 0.009,
+    "denied": false
+  },
+  "openmoji:267E": {
+    "darkFrac": 0.616,
+    "fillFrac": 0.204,
+    "solidFrac": 0.042,
+    "denied": false
+  },
+  "openmoji:1FA8E": {
+    "darkFrac": 0.431,
+    "fillFrac": 0.306,
+    "solidFrac": 0.043,
+    "denied": false
+  },
+  "openmoji:1F431-200D-1F4BB": {
+    "darkFrac": 0.442,
+    "fillFrac": 0.342,
+    "solidFrac": 0.032,
+    "denied": false
+  },
+  "openmoji:1F468-200D-1F4BB": {
+    "darkFrac": 0.452,
+    "fillFrac": 0.322,
+    "solidFrac": 0.051,
+    "denied": false
+  },
+  "openmoji:1F30F": {
+    "darkFrac": 0.267,
+    "fillFrac": 0.531,
+    "solidFrac": 0.006,
+    "denied": false
+  },
+  "openmoji:26A1": {
+    "darkFrac": 0.487,
+    "fillFrac": 0.179,
+    "solidFrac": 0.095,
+    "denied": false
+  },
+  "openmoji:23FB": {
+    "darkFrac": 0.21,
+    "fillFrac": 0.281,
+    "solidFrac": 0.059,
+    "denied": false
+  },
+  "openmoji:23FD": {
+    "darkFrac": 1,
+    "fillFrac": 0.024,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:2797": {
+    "darkFrac": 0.367,
+    "fillFrac": 0.156,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F51F": {
+    "darkFrac": 0.334,
+    "fillFrac": 0.502,
+    "solidFrac": 0.132,
+    "denied": false
+  },
+  "openmoji:1F6B0": {
+    "darkFrac": 0.323,
+    "fillFrac": 0.502,
+    "solidFrac": 0.021,
+    "denied": false
+  },
+  "openmoji:E0CB": {
+    "darkFrac": 0.345,
+    "fillFrac": 0.188,
+    "solidFrac": 0.013,
+    "denied": false
+  },
+  "openmoji:1F501": {
+    "darkFrac": 1,
+    "fillFrac": 0.102,
+    "solidFrac": 0.123,
+    "denied": false
+  },
+  "openmoji:1F503": {
+    "darkFrac": 0.639,
+    "fillFrac": 0.164,
+    "solidFrac": 0.07,
+    "denied": false
+  },
+  "openmoji:1F502": {
+    "darkFrac": 1,
+    "fillFrac": 0.09,
+    "solidFrac": 0.106,
+    "denied": false
+  },
+  "openmoji:1F327": {
+    "darkFrac": 0.299,
+    "fillFrac": 0.311,
+    "solidFrac": 0.023,
+    "denied": false
+  },
+  "openmoji:2601": {
+    "darkFrac": 0.2,
+    "fillFrac": 0.381,
+    "solidFrac": 0.006,
+    "denied": false
+  },
+  "openmoji:26C8": {
+    "darkFrac": 0.254,
+    "fillFrac": 0.382,
+    "solidFrac": 0.031,
+    "denied": false
+  },
+  "openmoji:E2CD": {
+    "darkFrac": 0.509,
+    "fillFrac": 0.168,
+    "solidFrac": 0.02,
+    "denied": false
+  },
+  "openmoji:E1D6": {
+    "darkFrac": 0.232,
+    "fillFrac": 0.352,
+    "solidFrac": 0.005,
+    "denied": false
+  },
+  "openmoji:2600": {
+    "darkFrac": 0.372,
+    "fillFrac": 0.443,
+    "solidFrac": 0.106,
+    "denied": false
+  },
+  "openmoji:1F31E": {
+    "darkFrac": 0.258,
+    "fillFrac": 0.585,
+    "solidFrac": 0.052,
+    "denied": false
+  },
+  "openmoji:1F30A": {
+    "darkFrac": 0.24,
+    "fillFrac": 0.563,
+    "solidFrac": 0.013,
+    "denied": false
+  },
+  "openmoji:1F3C4": {
+    "darkFrac": 0.525,
+    "fillFrac": 0.24,
+    "solidFrac": 0.045,
+    "denied": false
+  },
+  "openmoji:1F3C4-200D-2640-FE0F": {
+    "darkFrac": 0.562,
+    "fillFrac": 0.225,
+    "solidFrac": 0.034,
+    "denied": false
+  },
+  "openmoji:2668": {
+    "darkFrac": 0.574,
+    "fillFrac": 0.237,
+    "solidFrac": 0.045,
+    "denied": false
+  },
+  "openmoji:3030": {
+    "darkFrac": 1,
+    "fillFrac": 0.116,
+    "solidFrac": 0.596,
+    "denied": false
+  },
+  "openmoji:1FAE0": {
+    "darkFrac": 0.227,
+    "fillFrac": 0.372,
+    "solidFrac": 0.046,
+    "denied": false
+  },
+  "openmoji:1F9D6-1F3FB": {
+    "darkFrac": 0.411,
+    "fillFrac": 0.271,
+    "solidFrac": 0.086,
+    "denied": false
+  },
+  "openmoji:1F9D6-1F3FB-200D-2640-FE0F": {
+    "darkFrac": 0.354,
+    "fillFrac": 0.314,
+    "solidFrac": 0.008,
+    "denied": false
+  },
+  "openmoji:1F32C": {
+    "darkFrac": 0.246,
+    "fillFrac": 0.428,
+    "solidFrac": 0.021,
+    "denied": false
+  },
+  "openmoji:E0A3": {
+    "darkFrac": 0.254,
+    "fillFrac": 0.5,
+    "solidFrac": 0.014,
+    "denied": false
+  },
+  "openmoji:E103": {
+    "darkFrac": 0.473,
+    "fillFrac": 0.208,
+    "solidFrac": 0.035,
+    "denied": false
+  },
+  "openmoji:1F463": {
+    "darkFrac": 1,
+    "fillFrac": 0.232,
+    "solidFrac": 0.691,
+    "denied": true
+  },
+  "openmoji:1F333": {
+    "darkFrac": 0.268,
+    "fillFrac": 0.32,
+    "solidFrac": 0.03,
+    "denied": false
+  },
+  "openmoji:1F384": {
+    "darkFrac": 0.327,
+    "fillFrac": 0.271,
+    "solidFrac": 0.049,
+    "denied": false
+  },
+  "openmoji:1F4A7": {
+    "darkFrac": 0.176,
+    "fillFrac": 0.382,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F4A6": {
+    "darkFrac": 0.322,
+    "fillFrac": 0.298,
+    "solidFrac": 0.005,
+    "denied": false
+  },
+  "openmoji:2614": {
+    "darkFrac": 0.48,
+    "fillFrac": 0.343,
+    "solidFrac": 0.066,
+    "denied": false
+  },
+  "openmoji:1F32B": {
+    "darkFrac": 0.126,
+    "fillFrac": 0.797,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E102": {
+    "darkFrac": 0.328,
+    "fillFrac": 0.353,
+    "solidFrac": 0.03,
+    "denied": false
+  },
+  "openmoji:1F9D6-1F3FD": {
+    "darkFrac": 0.469,
+    "fillFrac": 0.271,
+    "solidFrac": 0.164,
+    "denied": false
+  },
+  "openmoji:2744": {
+    "darkFrac": 1,
+    "fillFrac": 0.165,
+    "solidFrac": 0.129,
+    "denied": false
+  },
+  "openmoji:1F4AE": {
+    "darkFrac": 0,
+    "fillFrac": 0.179,
+    "solidFrac": 0,
+    "denied": true
+  },
+  "openmoji:1F321": {
+    "darkFrac": 0.372,
+    "fillFrac": 0.183,
+    "solidFrac": 0.013,
+    "denied": false
+  },
+  "openmoji:E324": {
+    "darkFrac": 0.581,
+    "fillFrac": 0.083,
+    "solidFrac": 0.018,
+    "denied": false
+  },
+  "openmoji:E0B3": {
+    "darkFrac": 0.478,
+    "fillFrac": 0.165,
+    "solidFrac": 0.06,
+    "denied": false
+  },
+  "openmoji:1F328": {
+    "darkFrac": 0.346,
+    "fillFrac": 0.319,
+    "solidFrac": 0.118,
+    "denied": false
+  },
+  "openmoji:1F329": {
+    "darkFrac": 0.275,
+    "fillFrac": 0.307,
+    "solidFrac": 0.072,
+    "denied": false
+  },
+  "openmoji:2B07": {
+    "darkFrac": 1,
+    "fillFrac": 0.161,
+    "solidFrac": 0.708,
+    "denied": true
+  },
+  "openmoji:23EC": {
+    "darkFrac": 1,
+    "fillFrac": 0.095,
+    "solidFrac": 0.073,
+    "denied": false
+  },
+  "openmoji:2602": {
+    "darkFrac": 0.421,
+    "fillFrac": 0.355,
+    "solidFrac": 0.081,
+    "denied": false
+  },
+  "openmoji:0035-FE0F-20E3": {
+    "darkFrac": 0.292,
+    "fillFrac": 0.502,
+    "solidFrac": 0.104,
+    "denied": false
+  },
+  "openmoji:1F3FE": {
+    "darkFrac": 0.219,
+    "fillFrac": 0.5,
+    "solidFrac": 0.016,
+    "denied": false
+  },
+  "openmoji:26F2": {
+    "darkFrac": 0.259,
+    "fillFrac": 0.571,
+    "solidFrac": 0.018,
+    "denied": false
+  },
+  "openmoji:E09F": {
+    "darkFrac": 0.292,
+    "fillFrac": 0.453,
+    "solidFrac": 0.023,
+    "denied": false
+  },
+  "openmoji:E2C1": {
+    "darkFrac": 0.073,
+    "fillFrac": 0.839,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F3D4": {
+    "darkFrac": 0.316,
+    "fillFrac": 0.263,
+    "solidFrac": 0.172,
+    "denied": false
+  },
+  "openmoji:1F3F4-FE0F-200D-1F7EB": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:E085": {
+    "darkFrac": 0.53,
+    "fillFrac": 0.286,
+    "solidFrac": 0.037,
+    "denied": false
+  },
+  "openmoji:E086": {
+    "darkFrac": 0.448,
+    "fillFrac": 0.208,
+    "solidFrac": 0.056,
+    "denied": false
+  },
+  "openmoji:E08B": {
+    "darkFrac": 0.36,
+    "fillFrac": 0.3,
+    "solidFrac": 0.116,
+    "denied": false
+  },
+  "openmoji:E2C2": {
+    "darkFrac": 0.083,
+    "fillFrac": 0.839,
+    "solidFrac": 0.006,
+    "denied": false
+  },
+  "openmoji:1F636-200D-1F32B-FE0F": {
+    "darkFrac": 0.287,
+    "fillFrac": 0.398,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:E099": {
+    "darkFrac": 0.491,
+    "fillFrac": 0.346,
+    "solidFrac": 0.455,
+    "denied": false
+  },
+  "openmoji:1F343": {
+    "darkFrac": 0.515,
+    "fillFrac": 0.158,
+    "solidFrac": 0.059,
+    "denied": false
+  },
+  "openmoji:1F3F5": {
+    "darkFrac": 0.281,
+    "fillFrac": 0.39,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F331": {
+    "darkFrac": 0.765,
+    "fillFrac": 0.078,
+    "solidFrac": 0.022,
+    "denied": false
+  },
+  "openmoji:1FAB4": {
+    "darkFrac": 0.509,
+    "fillFrac": 0.229,
+    "solidFrac": 0.074,
+    "denied": false
+  },
+  "openmoji:1F301": {
+    "darkFrac": 0.172,
+    "fillFrac": 0.839,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F35C": {
+    "darkFrac": 0.32,
+    "fillFrac": 0.362,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F535": {
+    "darkFrac": 0.151,
+    "fillFrac": 0.527,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1FAD9-200D-1F7E6": {
+    "darkFrac": 0.19,
+    "fillFrac": 0.417,
+    "solidFrac": 0.011,
+    "denied": false
+  },
+  "openmoji:E09A": {
+    "darkFrac": 0.271,
+    "fillFrac": 0.463,
+    "solidFrac": 0.204,
+    "denied": false
+  },
+  "openmoji:2603": {
+    "darkFrac": 0.535,
+    "fillFrac": 0.318,
+    "solidFrac": 0.268,
+    "denied": false
+  },
+  "openmoji:1F4C5": {
+    "darkFrac": 0.28,
+    "fillFrac": 0.483,
+    "solidFrac": 0.048,
+    "denied": false
+  },
+  "openmoji:1F305": {
+    "darkFrac": 0.062,
+    "fillFrac": 0.839,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E2D0": {
+    "darkFrac": 0.172,
+    "fillFrac": 0.34,
+    "solidFrac": 0.148,
+    "denied": false
+  },
+  "openmoji:1F9D3": {
+    "darkFrac": 0.349,
+    "fillFrac": 0.283,
+    "solidFrac": 0.031,
+    "denied": false
+  },
+  "openmoji:1F475": {
+    "darkFrac": 0.368,
+    "fillFrac": 0.294,
+    "solidFrac": 0.012,
+    "denied": false
+  },
+  "openmoji:E256": {
+    "darkFrac": 0.222,
+    "fillFrac": 0.531,
+    "solidFrac": 0.022,
+    "denied": false
+  },
+  "openmoji:1F4DE": {
+    "darkFrac": 0.518,
+    "fillFrac": 0.142,
+    "solidFrac": 0.112,
+    "denied": false
+  },
+  "openmoji:1F9D1-1F3FD-200D-1F9B1": {
+    "darkFrac": 0.396,
+    "fillFrac": 0.293,
+    "solidFrac": 0.049,
+    "denied": false
+  },
+  "openmoji:23F1": {
+    "darkFrac": 0.216,
+    "fillFrac": 0.386,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F4C6": {
+    "darkFrac": 0.292,
+    "fillFrac": 0.471,
+    "solidFrac": 0.032,
+    "denied": false
+  },
+  "openmoji:1F5D3": {
+    "darkFrac": 0.289,
+    "fillFrac": 0.478,
+    "solidFrac": 0.019,
+    "denied": false
+  },
+  "openmoji:1F56F": {
+    "darkFrac": 0.44,
+    "fillFrac": 0.145,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F698": {
+    "darkFrac": 0.508,
+    "fillFrac": 0.222,
+    "solidFrac": 0.262,
+    "denied": false
+  },
+  "openmoji:0031-FE0F-20E3": {
+    "darkFrac": 0.237,
+    "fillFrac": 0.502,
+    "solidFrac": 0.073,
+    "denied": false
+  },
+  "openmoji:1F697": {
+    "darkFrac": 0.345,
+    "fillFrac": 0.254,
+    "solidFrac": 0.01,
+    "denied": false
+  },
+  "openmoji:E202": {
+    "darkFrac": 0.323,
+    "fillFrac": 0.235,
+    "solidFrac": 0.074,
+    "denied": false
+  },
+  "openmoji:E30B": {
+    "darkFrac": 0.346,
+    "fillFrac": 0.347,
+    "solidFrac": 0.022,
+    "denied": false
+  },
+  "openmoji:1F4CB": {
+    "darkFrac": 0.389,
+    "fillFrac": 0.461,
+    "solidFrac": 0.01,
+    "denied": false
+  },
+  "openmoji:E10D": {
+    "darkFrac": 0.314,
+    "fillFrac": 0.354,
+    "solidFrac": 0.035,
+    "denied": false
+  },
+  "openmoji:1F3E7": {
+    "darkFrac": 0.684,
+    "fillFrac": 0.389,
+    "solidFrac": 0.434,
+    "denied": false
+  },
+  "openmoji:23CF": {
+    "darkFrac": 0.357,
+    "fillFrac": 0.22,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F4F3": {
+    "darkFrac": 0.491,
+    "fillFrac": 0.387,
+    "solidFrac": 0.068,
+    "denied": false
+  },
+  "openmoji:2B0C": {
+    "darkFrac": 1,
+    "fillFrac": 0.194,
+    "solidFrac": 0.737,
+    "denied": true
+  },
+  "openmoji:1F477": {
+    "darkFrac": 0.451,
+    "fillFrac": 0.259,
+    "solidFrac": 0.108,
+    "denied": false
+  },
+  "openmoji:1F477-200D-2642-FE0F": {
+    "darkFrac": 0.452,
+    "fillFrac": 0.262,
+    "solidFrac": 0.106,
+    "denied": false
+  },
+  "openmoji:1F477-200D-2640-FE0F": {
+    "darkFrac": 0.478,
+    "fillFrac": 0.281,
+    "solidFrac": 0.126,
+    "denied": false
+  },
+  "openmoji:1F4BB": {
+    "darkFrac": 0.281,
+    "fillFrac": 0.687,
+    "solidFrac": 0.004,
+    "denied": false
+  },
+  "openmoji:1F3EA": {
+    "darkFrac": 0.536,
+    "fillFrac": 0.237,
+    "solidFrac": 0.062,
+    "denied": false
+  },
+  "openmoji:1F3EC": {
+    "darkFrac": 0.443,
+    "fillFrac": 0.413,
+    "solidFrac": 0.043,
+    "denied": false
+  },
+  "openmoji:E087": {
+    "darkFrac": 0.478,
+    "fillFrac": 0.194,
+    "solidFrac": 0.056,
+    "denied": false
+  },
+  "openmoji:1F332": {
+    "darkFrac": 0.364,
+    "fillFrac": 0.246,
+    "solidFrac": 0.112,
+    "denied": false
+  },
+  "openmoji:1F330": {
+    "darkFrac": 0.353,
+    "fillFrac": 0.342,
+    "solidFrac": 0.065,
+    "denied": false
+  },
+  "openmoji:1FABE": {
+    "darkFrac": 0.706,
+    "fillFrac": 0.179,
+    "solidFrac": 0.144,
+    "denied": false
+  },
+  "openmoji:1FAB5": {
+    "darkFrac": 0.347,
+    "fillFrac": 0.316,
+    "solidFrac": 0.047,
+    "denied": false
+  },
+  "openmoji:1F418": {
+    "darkFrac": 0.401,
+    "fillFrac": 0.371,
+    "solidFrac": 0.152,
+    "denied": false
+  },
+  "openmoji:1F33F": {
+    "darkFrac": 0.757,
+    "fillFrac": 0.109,
+    "solidFrac": 0.058,
+    "denied": false
+  },
+  "openmoji:1F342": {
+    "darkFrac": 0.419,
+    "fillFrac": 0.155,
+    "solidFrac": 0.02,
+    "denied": false
+  },
+  "openmoji:1FAE5": {
+    "darkFrac": 0.039,
+    "fillFrac": 0.355,
+    "solidFrac": 0.25,
+    "denied": true
+  },
+  "openmoji:1F4A8": {
+    "darkFrac": 0.22,
+    "fillFrac": 0.446,
+    "solidFrac": 0.031,
+    "denied": false
+  },
+  "openmoji:1F539": {
+    "darkFrac": 0.308,
+    "fillFrac": 0.181,
+    "solidFrac": 0.172,
+    "denied": false
+  },
+  "openmoji:1F390": {
+    "darkFrac": 0.325,
+    "fillFrac": 0.254,
+    "solidFrac": 0.026,
+    "denied": false
+  },
+  "openmoji:E2D1": {
+    "darkFrac": 0.607,
+    "fillFrac": 0.151,
+    "solidFrac": 0.019,
+    "denied": false
+  },
+  "openmoji:0034-FE0F-20E3": {
+    "darkFrac": 0.279,
+    "fillFrac": 0.502,
+    "solidFrac": 0.096,
+    "denied": false
+  },
+  "openmoji:1F553": {
+    "darkFrac": 0.175,
+    "fillFrac": 0.357,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F340": {
+    "darkFrac": 0.433,
+    "fillFrac": 0.194,
+    "solidFrac": 0.067,
+    "denied": false
+  },
+  "openmoji:27B0": {
+    "darkFrac": 1,
+    "fillFrac": 0.176,
+    "solidFrac": 0.632,
+    "denied": true
+  },
+  "openmoji:1F996": {
+    "darkFrac": 0.472,
+    "fillFrac": 0.212,
+    "solidFrac": 0.082,
+    "denied": false
+  },
+  "openmoji:1F40A": {
+    "darkFrac": 0.467,
+    "fillFrac": 0.204,
+    "solidFrac": 0.095,
+    "denied": false
+  },
+  "openmoji:1F378": {
+    "darkFrac": 0.504,
+    "fillFrac": 0.171,
+    "solidFrac": 0.045,
+    "denied": false
+  },
+  "openmoji:1F377": {
+    "darkFrac": 0.295,
+    "fillFrac": 0.267,
+    "solidFrac": 0.022,
+    "denied": false
+  },
+  "openmoji:2714": {
+    "darkFrac": 0.371,
+    "fillFrac": 0.171,
+    "solidFrac": 0.062,
+    "denied": false
+  },
+  "openmoji:1F6A3-200D-2642-FE0F": {
+    "darkFrac": 0.222,
+    "fillFrac": 0.385,
+    "solidFrac": 0.066,
+    "denied": false
+  },
+  "openmoji:1F6A3-200D-2640-FE0F": {
+    "darkFrac": 0.23,
+    "fillFrac": 0.388,
+    "solidFrac": 0.078,
+    "denied": false
+  },
+  "openmoji:1F6A3": {
+    "darkFrac": 0.199,
+    "fillFrac": 0.414,
+    "solidFrac": 0.032,
+    "denied": false
+  },
+  "openmoji:E082": {
+    "darkFrac": 0.33,
+    "fillFrac": 0.201,
+    "solidFrac": 0.02,
+    "denied": false
+  },
+  "openmoji:1F9D1-200D-1F9B3": {
+    "darkFrac": 0.343,
+    "fillFrac": 0.272,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F9D1-200D-1F9B2": {
+    "darkFrac": 0.316,
+    "fillFrac": 0.217,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F471": {
+    "darkFrac": 0.342,
+    "fillFrac": 0.272,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E088": {
+    "darkFrac": 0.631,
+    "fillFrac": 0.173,
+    "solidFrac": 0.068,
+    "denied": false
+  },
+  "openmoji:E0A4": {
+    "darkFrac": 0.249,
+    "fillFrac": 0.5,
+    "solidFrac": 0.014,
+    "denied": false
+  },
+  "openmoji:E251": {
+    "darkFrac": 1,
+    "fillFrac": 0.044,
+    "solidFrac": 0.099,
+    "denied": false
+  },
+  "openmoji:E1C8": {
+    "darkFrac": 0.391,
+    "fillFrac": 0.395,
+    "solidFrac": 0.034,
+    "denied": false
+  },
+  "openmoji:1F3C6": {
+    "darkFrac": 0.421,
+    "fillFrac": 0.257,
+    "solidFrac": 0.068,
+    "denied": false
+  },
+  "openmoji:1F3C5": {
+    "darkFrac": 0.336,
+    "fillFrac": 0.454,
+    "solidFrac": 0.057,
+    "denied": false
+  },
+  "openmoji:1F519": {
+    "darkFrac": 1,
+    "fillFrac": 0.148,
+    "solidFrac": 0.471,
+    "denied": false
+  },
+  "openmoji:E24D": {
+    "darkFrac": 1,
+    "fillFrac": 0.03,
+    "solidFrac": 0.191,
+    "denied": false
+  },
+  "openmoji:1F195": {
+    "darkFrac": 0,
+    "fillFrac": 0.493,
+    "solidFrac": 0,
+    "denied": true
+  },
+  "openmoji:E25F": {
+    "darkFrac": 0.25,
+    "fillFrac": 0.356,
+    "solidFrac": 0.02,
+    "denied": false
+  },
+  "openmoji:E059": {
+    "darkFrac": 0.414,
+    "fillFrac": 0.339,
+    "solidFrac": 0.068,
+    "denied": false
+  },
+  "openmoji:E045": {
+    "darkFrac": 0.225,
+    "fillFrac": 0.532,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:26A0": {
+    "darkFrac": 0.282,
+    "fillFrac": 0.335,
+    "solidFrac": 0.009,
+    "denied": false
+  },
+  "openmoji:E0A5": {
+    "darkFrac": 0.616,
+    "fillFrac": 0.318,
+    "solidFrac": 0.472,
+    "denied": false
+  },
+  "openmoji:E08E": {
+    "darkFrac": 0.323,
+    "fillFrac": 0.306,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F96C": {
+    "darkFrac": 0.247,
+    "fillFrac": 0.281,
+    "solidFrac": 0.031,
+    "denied": false
+  },
+  "openmoji:2618": {
+    "darkFrac": 0.401,
+    "fillFrac": 0.206,
+    "solidFrac": 0.037,
+    "denied": false
+  },
+  "openmoji:E2CF": {
+    "darkFrac": 0.695,
+    "fillFrac": 0.218,
+    "solidFrac": 0.424,
+    "denied": false
+  },
+  "openmoji:1F9C1": {
+    "darkFrac": 0.249,
+    "fillFrac": 0.391,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F36D": {
+    "darkFrac": 0.249,
+    "fillFrac": 0.242,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1FA9F": {
+    "darkFrac": 0.202,
+    "fillFrac": 0.561,
+    "solidFrac": 0.008,
+    "denied": false
+  },
+  "openmoji:1F7E9": {
+    "darkFrac": 0.221,
+    "fillFrac": 0.502,
+    "solidFrac": 0.016,
+    "denied": false
+  },
+  "openmoji:1F7E2": {
+    "darkFrac": 0.156,
+    "fillFrac": 0.527,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F7E1": {
+    "darkFrac": 0.147,
+    "fillFrac": 0.527,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F6B1": {
+    "darkFrac": 0.349,
+    "fillFrac": 0.6,
+    "solidFrac": 0.002,
+    "denied": false
+  },
+  "openmoji:1FADC": {
+    "darkFrac": 0.388,
+    "fillFrac": 0.218,
+    "solidFrac": 0.036,
+    "denied": false
+  },
+  "openmoji:2B2E": {
+    "darkFrac": 1,
+    "fillFrac": 0.382,
+    "solidFrac": 0.891,
+    "denied": true
+  },
+  "openmoji:1F341": {
+    "darkFrac": 0.354,
+    "fillFrac": 0.245,
+    "solidFrac": 0.025,
+    "denied": false
+  },
+  "openmoji:1F444": {
+    "darkFrac": 0.38,
+    "fillFrac": 0.285,
+    "solidFrac": 0.133,
+    "denied": false
+  },
+  "openmoji:1F910": {
+    "darkFrac": 0.246,
+    "fillFrac": 0.367,
+    "solidFrac": 0.029,
+    "denied": false
+  },
+  "openmoji:1F62E": {
+    "darkFrac": 0.215,
+    "fillFrac": 0.356,
+    "solidFrac": 0.023,
+    "denied": false
+  },
+  "openmoji:1F315": {
+    "darkFrac": 0.114,
+    "fillFrac": 0.531,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F317": {
+    "darkFrac": 0.613,
+    "fillFrac": 0.531,
+    "solidFrac": 0.747,
+    "denied": true
+  },
+  "openmoji:1F313": {
+    "darkFrac": 0.613,
+    "fillFrac": 0.531,
+    "solidFrac": 0.747,
+    "denied": true
+  },
+  "openmoji:1F36C": {
+    "darkFrac": 0.388,
+    "fillFrac": 0.275,
+    "solidFrac": 0.057,
+    "denied": false
+  },
+  "openmoji:2B21-FE0F-200D-1F7EB": {
+    "darkFrac": 0.158,
+    "fillFrac": 0.444,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F9F1": {
+    "darkFrac": 0.366,
+    "fillFrac": 0.296,
+    "solidFrac": 0.068,
+    "denied": false
+  },
+  "openmoji:25AE": {
+    "darkFrac": 1,
+    "fillFrac": 0.533,
+    "solidFrac": 0.889,
+    "denied": true
+  },
+  "openmoji:1FAD9": {
+    "darkFrac": 0.263,
+    "fillFrac": 0.382,
+    "solidFrac": 0.039,
+    "denied": false
+  },
+  "openmoji:1FAD9-200D-1F7EB": {
+    "darkFrac": 0.19,
+    "fillFrac": 0.417,
+    "solidFrac": 0.011,
+    "denied": false
+  },
+  "openmoji:1FAD9-200D-1F7E7": {
+    "darkFrac": 0.19,
+    "fillFrac": 0.417,
+    "solidFrac": 0.011,
+    "denied": false
+  },
+  "openmoji:1F98C": {
+    "darkFrac": 0.477,
+    "fillFrac": 0.307,
+    "solidFrac": 0.062,
+    "denied": false
+  },
+  "openmoji:E003": {
+    "darkFrac": 0.435,
+    "fillFrac": 0.253,
+    "solidFrac": 0.024,
+    "denied": false
+  },
+  "openmoji:1FACE": {
+    "darkFrac": 0.366,
+    "fillFrac": 0.238,
+    "solidFrac": 0.07,
+    "denied": false
+  },
+  "openmoji:1F33B": {
+    "darkFrac": 0.582,
+    "fillFrac": 0.234,
+    "solidFrac": 0.038,
+    "denied": false
+  },
+  "openmoji:1F9D1-1F3FF-200D-1F3ED": {
+    "darkFrac": 0.586,
+    "fillFrac": 0.292,
+    "solidFrac": 0.251,
+    "denied": false
+  },
+  "openmoji:2B50": {
+    "darkFrac": 0.294,
+    "fillFrac": 0.273,
+    "solidFrac": 0.032,
+    "denied": false
+  },
+  "openmoji:1F453": {
+    "darkFrac": 0.433,
+    "fillFrac": 0.299,
+    "solidFrac": 0.013,
+    "denied": false
+  },
+  "openmoji:1F95B": {
+    "darkFrac": 0.231,
+    "fillFrac": 0.273,
+    "solidFrac": 0.007,
+    "denied": false
+  },
+  "openmoji:1F308": {
+    "darkFrac": 0.521,
+    "fillFrac": 0.44,
+    "solidFrac": 0.038,
+    "denied": false
+  },
+  "openmoji:1F3F3-FE0F-200D-1F308": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:E420": {
+    "darkFrac": 0.24,
+    "fillFrac": 0.533,
+    "solidFrac": 0.024,
+    "denied": false
+  },
+  "openmoji:E189": {
+    "darkFrac": 0.313,
+    "fillFrac": 0.262,
+    "solidFrac": 0.032,
+    "denied": false
+  },
+  "openmoji:1F4CF": {
+    "darkFrac": 0.417,
+    "fillFrac": 0.184,
+    "solidFrac": 0.028,
+    "denied": false
+  },
+  "openmoji:1F4D0": {
+    "darkFrac": 0.474,
+    "fillFrac": 0.183,
+    "solidFrac": 0.04,
+    "denied": false
+  },
+  "openmoji:E0A7": {
+    "darkFrac": 1,
+    "fillFrac": 0.191,
+    "solidFrac": 0.707,
+    "denied": true
+  },
+  "openmoji:E0A6": {
+    "darkFrac": 0.57,
+    "fillFrac": 0.318,
+    "solidFrac": 0.419,
+    "denied": false
+  },
+  "openmoji:27A1": {
+    "darkFrac": 1,
+    "fillFrac": 0.149,
+    "solidFrac": 0.673,
+    "denied": true
+  },
+  "openmoji:1FADF": {
+    "darkFrac": 0.354,
+    "fillFrac": 0.263,
+    "solidFrac": 0.005,
+    "denied": false
+  },
+  "openmoji:1F4C0": {
+    "darkFrac": 0.166,
+    "fillFrac": 0.553,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:2B21-FE0F-200D-1F7E6": {
+    "darkFrac": 0.15,
+    "fillFrac": 0.444,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F3F4-FE0F-200D-1F7E5": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F3F3-FE0F-200D-1F7E5": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F3F3-FE0F-200D-1F7E6": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F7E6": {
+    "darkFrac": 0.221,
+    "fillFrac": 0.502,
+    "solidFrac": 0.016,
+    "denied": false
+  },
+  "openmoji:2728": {
+    "darkFrac": 0.693,
+    "fillFrac": 0.195,
+    "solidFrac": 0.122,
+    "denied": false
+  },
+  "openmoji:1F387": {
+    "darkFrac": 0.161,
+    "fillFrac": 0.154,
+    "solidFrac": 0.035,
+    "denied": false
+  },
+  "openmoji:1F441": {
+    "darkFrac": 0.336,
+    "fillFrac": 0.479,
+    "solidFrac": 0.237,
+    "denied": false
+  },
+  "openmoji:E31C": {
+    "darkFrac": 0.392,
+    "fillFrac": 0.197,
+    "solidFrac": 0.101,
+    "denied": false
+  },
+  "openmoji:25C9": {
+    "darkFrac": 0.209,
+    "fillFrac": 0.527,
+    "solidFrac": 0.173,
+    "denied": false
+  },
+  "openmoji:1F44B-1F3FD": {
+    "darkFrac": 0.37,
+    "fillFrac": 0.336,
+    "solidFrac": 0.014,
+    "denied": false
+  },
+  "openmoji:1F44B-1F3FC": {
+    "darkFrac": 0.359,
+    "fillFrac": 0.336,
+    "solidFrac": 0.014,
+    "denied": false
+  },
+  "openmoji:1F440": {
+    "darkFrac": 0.317,
+    "fillFrac": 0.501,
+    "solidFrac": 0.112,
+    "denied": false
+  },
+  "openmoji:2B21-FE0F-200D-1F308": {
+    "darkFrac": 0.151,
+    "fillFrac": 0.444,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:2B21-FE0F-200D-1F7E8": {
+    "darkFrac": 0.15,
+    "fillFrac": 0.444,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:2B21-FE0F-200D-1F7E7": {
+    "darkFrac": 0.15,
+    "fillFrac": 0.444,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F307": {
+    "darkFrac": 0.185,
+    "fillFrac": 0.839,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F306": {
+    "darkFrac": 0.17,
+    "fillFrac": 0.839,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F324": {
+    "darkFrac": 0.307,
+    "fillFrac": 0.442,
+    "solidFrac": 0.051,
+    "denied": false
+  },
+  "openmoji:1F325": {
+    "darkFrac": 0.263,
+    "fillFrac": 0.409,
+    "solidFrac": 0.036,
+    "denied": false
+  },
+  "openmoji:25C9-FE0F-200D-1F534": {
+    "darkFrac": 0.153,
+    "fillFrac": 0.527,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F534": {
+    "darkFrac": 0.153,
+    "fillFrac": 0.527,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E070": {
+    "darkFrac": 0.144,
+    "fillFrac": 0.424,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F6A9": {
+    "darkFrac": 0.317,
+    "fillFrac": 0.293,
+    "solidFrac": 0.019,
+    "denied": false
+  },
+  "openmoji:E0A9": {
+    "darkFrac": 0.284,
+    "fillFrac": 0.247,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F3F3-FE0F-200D-1F7EA": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F7E3": {
+    "darkFrac": 0.16,
+    "fillFrac": 0.527,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E08D": {
+    "darkFrac": 0.358,
+    "fillFrac": 0.305,
+    "solidFrac": 0.135,
+    "denied": false
+  },
+  "openmoji:E2D9": {
+    "darkFrac": 0.402,
+    "fillFrac": 0.241,
+    "solidFrac": 0.13,
+    "denied": false
+  },
+  "openmoji:1F3F4-FE0F-200D-1F7E6": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F3F4-FE0F-200D-1F7EA": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F3F3": {
+    "darkFrac": 0.389,
+    "fillFrac": 0.168,
+    "solidFrac": 0.013,
+    "denied": false
+  },
+  "openmoji:1F505": {
+    "darkFrac": 0.76,
+    "fillFrac": 0.043,
+    "solidFrac": 0.053,
+    "denied": false
+  },
+  "openmoji:2B2F": {
+    "darkFrac": 0.164,
+    "fillFrac": 0.393,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F408": {
+    "darkFrac": 0.368,
+    "fillFrac": 0.275,
+    "solidFrac": 0.021,
+    "denied": false
+  },
+  "openmoji:1F431": {
+    "darkFrac": 0.261,
+    "fillFrac": 0.434,
+    "solidFrac": 0.023,
+    "denied": false
+  },
+  "openmoji:1F63A": {
+    "darkFrac": 0.274,
+    "fillFrac": 0.474,
+    "solidFrac": 0.013,
+    "denied": false
+  },
+  "openmoji:1F63E": {
+    "darkFrac": 0.253,
+    "fillFrac": 0.474,
+    "solidFrac": 0.014,
+    "denied": false
+  },
+  "openmoji:1F4DA": {
+    "darkFrac": 0.273,
+    "fillFrac": 0.352,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F3F7": {
+    "darkFrac": 0.195,
+    "fillFrac": 0.47,
+    "solidFrac": 0.005,
+    "denied": false
+  },
+  "openmoji:1F3FC": {
+    "darkFrac": 0.219,
+    "fillFrac": 0.5,
+    "solidFrac": 0.016,
+    "denied": false
+  },
+  "openmoji:E1C0": {
+    "darkFrac": 0.445,
+    "fillFrac": 0.438,
+    "solidFrac": 0.091,
+    "denied": false
+  },
+  "openmoji:1F9E0": {
+    "darkFrac": 0.272,
+    "fillFrac": 0.32,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F945": {
+    "darkFrac": 0.319,
+    "fillFrac": 0.367,
+    "solidFrac": 0.078,
+    "denied": false
+  },
+  "openmoji:E2D4": {
+    "darkFrac": 0.373,
+    "fillFrac": 0.442,
+    "solidFrac": 0.137,
+    "denied": false
+  },
+  "openmoji:E144": {
+    "darkFrac": 0.288,
+    "fillFrac": 0.554,
+    "solidFrac": 0.022,
+    "denied": false
+  },
+  "openmoji:1F960": {
+    "darkFrac": 0.254,
+    "fillFrac": 0.274,
+    "solidFrac": 0.031,
+    "denied": false
+  },
+  "openmoji:E142": {
+    "darkFrac": 0.305,
+    "fillFrac": 0.474,
+    "solidFrac": 0.012,
+    "denied": false
+  },
+  "openmoji:1F64B": {
+    "darkFrac": 0.331,
+    "fillFrac": 0.428,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F522": {
+    "darkFrac": 0.554,
+    "fillFrac": 0.502,
+    "solidFrac": 0.459,
+    "denied": true
+  },
+  "openmoji:26AA": {
+    "darkFrac": 0.147,
+    "fillFrac": 0.527,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F92A": {
+    "darkFrac": 0.291,
+    "fillFrac": 0.356,
+    "solidFrac": 0.004,
+    "denied": false
+  },
+  "openmoji:1F63D": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.474,
+    "solidFrac": 0.008,
+    "denied": false
+  },
+  "openmoji:27BF": {
+    "darkFrac": 1,
+    "fillFrac": 0.198,
+    "solidFrac": 0.592,
+    "denied": true
+  },
+  "openmoji:1F3B2": {
+    "darkFrac": 0.38,
+    "fillFrac": 0.314,
+    "solidFrac": 0.08,
+    "denied": false
+  },
+  "openmoji:1F3AE": {
+    "darkFrac": 0.389,
+    "fillFrac": 0.385,
+    "solidFrac": 0.145,
+    "denied": false
+  },
+  "openmoji:23EA": {
+    "darkFrac": 1,
+    "fillFrac": 0.094,
+    "solidFrac": 0.065,
+    "denied": false
+  },
+  "openmoji:25C0": {
+    "darkFrac": 0.269,
+    "fillFrac": 0.215,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F39B": {
+    "darkFrac": 0.293,
+    "fillFrac": 0.497,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E1D5": {
+    "darkFrac": 0.321,
+    "fillFrac": 0.187,
+    "solidFrac": 0.051,
+    "denied": false
+  },
+  "openmoji:1F9D1-200D-1F9BD": {
+    "darkFrac": 0.459,
+    "fillFrac": 0.19,
+    "solidFrac": 0.025,
+    "denied": false
+  },
+  "openmoji:1F9BD": {
+    "darkFrac": 0.332,
+    "fillFrac": 0.231,
+    "solidFrac": 0.068,
+    "denied": false
+  },
+  "openmoji:E319": {
+    "darkFrac": 0.352,
+    "fillFrac": 0.248,
+    "solidFrac": 0.02,
+    "denied": false
+  },
+  "openmoji:231B": {
+    "darkFrac": 0.374,
+    "fillFrac": 0.361,
+    "solidFrac": 0.026,
+    "denied": false
+  },
+  "openmoji:23F3": {
+    "darkFrac": 0.416,
+    "fillFrac": 0.361,
+    "solidFrac": 0.023,
+    "denied": false
+  },
+  "openmoji:1F699": {
+    "darkFrac": 0.534,
+    "fillFrac": 0.273,
+    "solidFrac": 0.336,
+    "denied": false
+  },
+  "openmoji:1F69E": {
+    "darkFrac": 0.347,
+    "fillFrac": 0.507,
+    "solidFrac": 0.111,
+    "denied": false
+  },
+  "openmoji:E329": {
+    "darkFrac": 0.921,
+    "fillFrac": 0.169,
+    "solidFrac": 0.214,
+    "denied": false
+  },
+  "openmoji:1F3A4": {
+    "darkFrac": 0.743,
+    "fillFrac": 0.157,
+    "solidFrac": 0.532,
+    "denied": false
+  },
+  "openmoji:1F399": {
+    "darkFrac": 0.581,
+    "fillFrac": 0.224,
+    "solidFrac": 0.243,
+    "denied": false
+  },
+  "openmoji:1F4E3": {
+    "darkFrac": 0.372,
+    "fillFrac": 0.353,
+    "solidFrac": 0.023,
+    "denied": false
+  },
+  "openmoji:1F4FA": {
+    "darkFrac": 0.637,
+    "fillFrac": 0.563,
+    "solidFrac": 0.544,
+    "denied": true
+  },
+  "openmoji:1F1F9-1F1FB": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F9C5": {
+    "darkFrac": 0.295,
+    "fillFrac": 0.362,
+    "solidFrac": 0.053,
+    "denied": false
+  },
+  "openmoji:26F0": {
+    "darkFrac": 0.327,
+    "fillFrac": 0.243,
+    "solidFrac": 0.29,
+    "denied": false
+  },
+  "openmoji:E048": {
+    "darkFrac": 0.489,
+    "fillFrac": 0.428,
+    "solidFrac": 0.162,
+    "denied": false
+  },
+  "openmoji:E04A": {
+    "darkFrac": 0.308,
+    "fillFrac": 0.499,
+    "solidFrac": 0.119,
+    "denied": false
+  }
+}

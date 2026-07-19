@@ -1,0 +1,76 @@
+# ─────────────────────────────────────────────────────────────
+# Secrets — NEVER commit these
+# ─────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
+# Service-account / API keys (keep the JSON key OUTSIDE the repo)
+*service-account*.json
+*credentials*.json
+*-key.json
+gcp-*.json
+# Materialized from GOOGLE_APPLICATION_CREDENTIALS_JSON by worker/env.ts on cloud hosts
+.gcp-key.json
+
+# ─────────────────────────────────────────────────────────────
+# Dependencies & build output
+# ─────────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+.convex/
+
+# ─────────────────────────────────────────────────────────────
+# Generated media & runtime artifacts
+# ─────────────────────────────────────────────────────────────
+outputs/
+
+# Disk-backed caches that rebuild themselves at runtime
+assets/generated/icon-query-cache.json
+assets/generated/icon-choice-cache.json
+assets/generated/icon-rerank-cache.json
+assets/generated/icon-library-query-cache.json
+assets/generated/iconify/
+# Timestamped embedding index snapshots — 150MB+ of regenerable binary noise.
+assets/generated/index-backups/
+assets/fonts/.fccache/
+
+# Embedding indexes ARE committed (openmoji ~14MB, icon-library ~200KB) so a
+# freshly cloned/deployed worker gets semantic icon matching without a GCP-billed
+# rebuild. Only the ingest scratch file stays ignored.
+assets/vendor/openmoji/.build-progress.txt
+# Anchor candidates are a scratch space for hand-picking the golden style set;
+# the chosen anchors/ + the library svg/manifest ARE committed (expensive to regenerate).
+assets/generated/icon-library/anchor-candidates/
+# Source rasters (~150MB for the full set) — the SVGs are the product; keep the
+# PNGs locally for reference/regeneration but out of git.
+assets/generated/icon-library/png/
+
+# ─────────────────────────────────────────────────────────────
+# Local-only / internal (not for the public repo)
+# ─────────────────────────────────────────────────────────────
+video_analysis/
+imp.md
+simiarch.md
+improvement-plan-lamina.md
+.agents/
+skills-lock.json
+
+# ─────────────────────────────────────────────────────────────
+# Editor / OS
+# ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Isolated Next.js build dir for a second dev server (see next.config.mjs)
+.next-preview/
+.claude/

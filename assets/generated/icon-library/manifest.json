@@ -1,0 +1,2419 @@
+{
+  "provider": "icon-library",
+  "generatedAt": "2026-07-18T16:22:47.277Z",
+  "total": 114,
+  "entries": [
+    {
+      "id": "1st-place-medal",
+      "concept": "1st place medal",
+      "label": "1st place medal",
+      "synonyms": [
+        "1st",
+        "first",
+        "gold",
+        "medal",
+        "place",
+        "gold medal",
+        "first place medal"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/1st-place-medal.svg",
+      "pngPath": "assets/generated/icon-library/png/1st-place-medal.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T01:52:36.402Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.298,
+        "coverage": 0.474
+      }
+    },
+    {
+      "id": "abacus",
+      "concept": "abacus",
+      "label": "abacus",
+      "synonyms": [
+        "calculation",
+        "calculator"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/abacus.svg",
+      "pngPath": "assets/generated/icon-library/png/abacus.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T01:55:10.907Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.257,
+        "coverage": 0.711
+      }
+    },
+    {
+      "id": "accordion",
+      "concept": "accordion",
+      "label": "accordion",
+      "synonyms": [
+        "box",
+        "concertina",
+        "instrument",
+        "music",
+        "squeeze",
+        "squeezebox"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/accordion.svg",
+      "pngPath": "assets/generated/icon-library/png/accordion.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T02:05:38.786Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.307,
+        "coverage": 0.558
+      }
+    },
+    {
+      "id": "activation",
+      "concept": "activation",
+      "label": "Activation",
+      "synonyms": [
+        "activation",
+        "fire",
+        "threshold"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/activation.svg",
+      "pngPath": "assets/generated/icon-library/png/activation.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T01:30:29.728Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.208,
+        "coverage": 0.54
+      }
+    },
+    {
+      "id": "add-contact",
+      "concept": "add contact",
+      "label": "add contact",
+      "synonyms": [
+        "add",
+        "contact"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/add-contact.svg",
+      "pngPath": "assets/generated/icon-library/png/add-contact.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:37:04.046Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.206,
+        "coverage": 0.656
+      }
+    },
+    {
+      "id": "adhesive-bandage",
+      "concept": "adhesive bandage",
+      "label": "adhesive bandage",
+      "synonyms": [
+        "adhesive",
+        "bandage"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/adhesive-bandage.svg",
+      "pngPath": "assets/generated/icon-library/png/adhesive-bandage.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:37:48.312Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.278,
+        "coverage": 0.748
+      }
+    },
+    {
+      "id": "aerial-tramway",
+      "concept": "aerial tramway",
+      "label": "aerial tramway",
+      "synonyms": [
+        "aerial",
+        "cable",
+        "car",
+        "gondola",
+        "ropeway",
+        "tramway"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/aerial-tramway.svg",
+      "pngPath": "assets/generated/icon-library/png/aerial-tramway.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T02:17:14.951Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.283,
+        "coverage": 0.702
+      }
+    },
+    {
+      "id": "ai-hand",
+      "concept": "ai hand",
+      "label": "ai hand",
+      "synonyms": [
+        "artificial intelligence hand",
+        "six fingered hand",
+        "hallucination",
+        "error",
+        "bug",
+        "glitch"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/ai-hand.svg",
+      "pngPath": "assets/generated/icon-library/png/ai-hand.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:44:47.893Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.341,
+        "coverage": 0.51
+      }
+    },
+    {
+      "id": "airplane",
+      "concept": "airplane",
+      "label": "airplane",
+      "synonyms": [
+        "aeroplane",
+        "fly",
+        "flying",
+        "jet",
+        "plane",
+        "travel",
+        "air",
+        "sky"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/airplane.svg",
+      "pngPath": "assets/generated/icon-library/png/airplane.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:50:01.369Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.377,
+        "coverage": 0.495
+      }
+    },
+    {
+      "id": "alarm-clock",
+      "concept": "alarm clock",
+      "label": "alarm clock",
+      "synonyms": [
+        "alarm",
+        "clock",
+        "hours",
+        "hrs",
+        "late",
+        "waiting",
+        "watch"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/alarm-clock.svg",
+      "pngPath": "assets/generated/icon-library/png/alarm-clock.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:46:57.181Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.279,
+        "coverage": 0.738
+      }
+    },
+    {
+      "id": "alembic",
+      "concept": "alembic",
+      "label": "alembic",
+      "synonyms": [
+        "chemistry",
+        "tool"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/alembic.svg",
+      "pngPath": "assets/generated/icon-library/png/alembic.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T07:37:32.494Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.265,
+        "coverage": 0.72
+      }
+    },
+    {
+      "id": "alien",
+      "concept": "alien",
+      "label": "alien",
+      "synonyms": [
+        "creature",
+        "extraterrestrial",
+        "face",
+        "fairy",
+        "fairytale",
+        "fantasy",
+        "monster",
+        "space"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/alien.svg",
+      "pngPath": "assets/generated/icon-library/png/alien.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T07:40:39.684Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.274,
+        "coverage": 0.656
+      }
+    },
+    {
+      "id": "ambulance",
+      "concept": "ambulance",
+      "label": "ambulance",
+      "synonyms": [
+        "emergency",
+        "vehicle",
+        "travel",
+        "hospital",
+        "alarm",
+        "doctor",
+        "help"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/ambulance.svg",
+      "pngPath": "assets/generated/icon-library/png/ambulance.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T07:42:29.888Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.271,
+        "coverage": 0.576
+      }
+    },
+    {
+      "id": "american-football",
+      "concept": "american football",
+      "label": "american football",
+      "synonyms": [
+        "american",
+        "ball",
+        "bowl",
+        "football",
+        "super",
+        "american game",
+        "oval ball",
+        "ball game"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/american-football.svg",
+      "pngPath": "assets/generated/icon-library/png/american-football.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T07:36:29.502Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.231,
+        "coverage": 0.504
+      }
+    },
+    {
+      "id": "anatomical-heart",
+      "concept": "anatomical heart",
+      "label": "anatomical heart",
+      "synonyms": [
+        "anatomical",
+        "beat",
+        "cardiology",
+        "heart",
+        "heartbeat",
+        "organ",
+        "pulse",
+        "real"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/anatomical-heart.svg",
+      "pngPath": "assets/generated/icon-library/png/anatomical-heart.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:47:56.993Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.239,
+        "coverage": 0.51
+      }
+    },
+    {
+      "id": "anchor",
+      "concept": "anchor",
+      "label": "anchor",
+      "synonyms": [
+        "ship",
+        "tool",
+        "boat",
+        "travel",
+        "sea",
+        "atlantic",
+        "ocean",
+        "water"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/anchor.svg",
+      "pngPath": "assets/generated/icon-library/png/anchor.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:48:44.357Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.33,
+        "coverage": 0.674
+      }
+    },
+    {
+      "id": "andalusia-flag",
+      "concept": "andalusia flag",
+      "label": "andalusia flag",
+      "synonyms": [
+        "andalusia",
+        "arbonaida"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/andalusia-flag.svg",
+      "pngPath": "assets/generated/icon-library/png/andalusia-flag.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T07:43:41.697Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.156,
+        "coverage": 0.529
+      }
+    },
+    {
+      "id": "android",
+      "concept": "android",
+      "label": "android",
+      "synonyms": [
+        "google play"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/android.svg",
+      "pngPath": "assets/generated/icon-library/png/android.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T15:29:44.781Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.222,
+        "coverage": 0.693
+      }
+    },
+    {
+      "id": "anger-symbol",
+      "concept": "anger symbol",
+      "label": "anger symbol",
+      "synonyms": [
+        "anger",
+        "angry",
+        "comic",
+        "mad",
+        "symbol",
+        "upset"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/anger-symbol.svg",
+      "pngPath": "assets/generated/icon-library/png/anger-symbol.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T07:54:41.095Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.402,
+        "coverage": 0.676
+      }
+    },
+    {
+      "id": "angry-face",
+      "concept": "angry face",
+      "label": "angry face",
+      "synonyms": [
+        "anger",
+        "angry",
+        "blame",
+        "face",
+        "feels",
+        "frustrated",
+        "mad",
+        "maddening"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/angry-face.svg",
+      "pngPath": "assets/generated/icon-library/png/angry-face.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T07:49:47.442Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.206,
+        "coverage": 0.738
+      }
+    },
+    {
+      "id": "angry-face-with-horns",
+      "concept": "angry face with horns",
+      "label": "angry face with horns",
+      "synonyms": [
+        "angry",
+        "demon",
+        "devil",
+        "evil",
+        "face",
+        "fairy",
+        "fairytale",
+        "fantasy"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/angry-face-with-horns.svg",
+      "pngPath": "assets/generated/icon-library/png/angry-face-with-horns.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T15:44:18.210Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.222,
+        "coverage": 0.684
+      }
+    },
+    {
+      "id": "anguished-face",
+      "concept": "anguished face",
+      "label": "anguished face",
+      "synonyms": [
+        "anguished",
+        "face",
+        "forgot",
+        "scared",
+        "scary",
+        "stressed",
+        "surprise",
+        "unhappy"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/anguished-face.svg",
+      "pngPath": "assets/generated/icon-library/png/anguished-face.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T07:52:36.144Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.229,
+        "coverage": 0.72
+      }
+    },
+    {
+      "id": "annoyed-face-with-tongue",
+      "concept": "annoyed face with tongue",
+      "label": "annoyed face with tongue",
+      "synonyms": [
+        "disappointed",
+        "playful",
+        "goofy",
+        "tongue out",
+        "annoyed",
+        "frustrated",
+        "childish",
+        "offended"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/annoyed-face-with-tongue.svg",
+      "pngPath": "assets/generated/icon-library/png/annoyed-face-with-tongue.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:06:29.435Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.185,
+        "coverage": 0.738
+      }
+    },
+    {
+      "id": "ant",
+      "concept": "ant",
+      "label": "ant",
+      "synonyms": [
+        "animal",
+        "garden",
+        "insect"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/ant.svg",
+      "pngPath": "assets/generated/icon-library/png/ant.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:04:38.988Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.343,
+        "coverage": 0.729
+      }
+    },
+    {
+      "id": "anticlockwise-triangle-headed-top-u-shaped-arrow",
+      "concept": "anticlockwise triangle headed top u shaped arrow",
+      "label": "anticlockwise triangle-headed top u-shaped arrow",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/anticlockwise-triangle-headed-top-u-shaped-arrow.svg",
+      "pngPath": "assets/generated/icon-library/png/anticlockwise-triangle-headed-top-u-shaped-arrow.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:00:43.721Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.317,
+        "coverage": 0.738
+      }
+    },
+    {
+      "id": "anxious-face-with-sweat",
+      "concept": "anxious face with sweat",
+      "label": "anxious face with sweat",
+      "synonyms": [
+        "anxious",
+        "blue",
+        "cold",
+        "eek",
+        "face",
+        "mouth",
+        "nervous",
+        "open"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/anxious-face-with-sweat.svg",
+      "pngPath": "assets/generated/icon-library/png/anxious-face-with-sweat.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T07:59:36.339Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.221,
+        "coverage": 0.738
+      }
+    },
+    {
+      "id": "apple",
+      "concept": "apple",
+      "label": "apple",
+      "synonyms": [
+        "ios",
+        "osx"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/apple.svg",
+      "pngPath": "assets/generated/icon-library/png/apple.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:52:04.008Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.165,
+        "coverage": 0.665
+      }
+    },
+    {
+      "id": "aquarius",
+      "concept": "aquarius",
+      "label": "Aquarius",
+      "synonyms": [
+        "bearer",
+        "horoscope",
+        "water"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/aquarius.svg",
+      "pngPath": "assets/generated/icon-library/png/aquarius.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:01:25.874Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.435,
+        "coverage": 0.483
+      }
+    },
+    {
+      "id": "arduino",
+      "concept": "arduino",
+      "label": "arduino",
+      "synonyms": [
+        "prototyping",
+        "electric",
+        "sensor"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/arduino.svg",
+      "pngPath": "assets/generated/icon-library/png/arduino.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:54:56.043Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.183,
+        "coverage": 0.63
+      }
+    },
+    {
+      "id": "aries",
+      "concept": "aries",
+      "label": "Aries",
+      "synonyms": [
+        "horoscope",
+        "ram"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/aries.svg",
+      "pngPath": "assets/generated/icon-library/png/aries.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T15:45:08.196Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.195,
+        "coverage": 0.583
+      }
+    },
+    {
+      "id": "arrow-turn-right",
+      "concept": "arrow turn right",
+      "label": "arrow turn right",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/arrow-turn-right.svg",
+      "pngPath": "assets/generated/icon-library/png/arrow-turn-right.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T15:53:00.800Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.257,
+        "coverage": 0.656
+      }
+    },
+    {
+      "id": "articulated-lorry",
+      "concept": "articulated lorry",
+      "label": "articulated lorry",
+      "synonyms": [
+        "articulated",
+        "car",
+        "drive",
+        "lorry",
+        "move",
+        "semi",
+        "truck",
+        "vehicle"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/articulated-lorry.svg",
+      "pngPath": "assets/generated/icon-library/png/articulated-lorry.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:21:42.325Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.239,
+        "coverage": 0.31
+      }
+    },
+    {
+      "id": "artist-palette",
+      "concept": "artist palette",
+      "label": "artist palette",
+      "synonyms": [
+        "art",
+        "artist",
+        "artsy",
+        "arty",
+        "colorful",
+        "creative",
+        "entertainment",
+        "museum"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/artist-palette.svg",
+      "pngPath": "assets/generated/icon-library/png/artist-palette.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:28:36.118Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.204,
+        "coverage": 0.666
+      }
+    },
+    {
+      "id": "astronaut",
+      "concept": "astronaut",
+      "label": "astronaut",
+      "synonyms": [
+        "rocket",
+        "space"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/astronaut.svg",
+      "pngPath": "assets/generated/icon-library/png/astronaut.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:36:29.072Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.228,
+        "coverage": 0.456
+      }
+    },
+    {
+      "id": "atm-sign",
+      "concept": "atm sign",
+      "label": "ATM sign",
+      "synonyms": [
+        "atm",
+        "automated",
+        "bank",
+        "cash",
+        "money",
+        "sign",
+        "teller"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/atm-sign.svg",
+      "pngPath": "assets/generated/icon-library/png/atm-sign.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:48:35.013Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.228,
+        "coverage": 0.565
+      }
+    },
+    {
+      "id": "atom-symbol",
+      "concept": "atom symbol",
+      "label": "atom symbol",
+      "synonyms": [
+        "atheist",
+        "atom",
+        "symbol"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/atom-symbol.svg",
+      "pngPath": "assets/generated/icon-library/png/atom-symbol.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:42:16.827Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.33,
+        "coverage": 0.738
+      }
+    },
+    {
+      "id": "augmented-reality",
+      "concept": "augmented reality",
+      "label": "augmented reality",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/augmented-reality.svg",
+      "pngPath": "assets/generated/icon-library/png/augmented-reality.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T16:05:59.447Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.235,
+        "coverage": 0.492
+      }
+    },
+    {
+      "id": "authority",
+      "concept": "authority",
+      "label": "authority",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/authority.svg",
+      "pngPath": "assets/generated/icon-library/png/authority.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T16:06:44.137Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.269,
+        "coverage": 0.547
+      }
+    },
+    {
+      "id": "authority-building",
+      "concept": "authority building",
+      "label": "authority building",
+      "synonyms": [
+        "white flag"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/authority-building.svg",
+      "pngPath": "assets/generated/icon-library/png/authority-building.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:58:39.473Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.342,
+        "coverage": 0.738
+      }
+    },
+    {
+      "id": "authority-instruction",
+      "concept": "authority instruction",
+      "label": "authority instruction",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/authority-instruction.svg",
+      "pngPath": "assets/generated/icon-library/png/authority-instruction.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T08:59:53.084Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.165,
+        "coverage": 0.576
+      }
+    },
+    {
+      "id": "auto-rickshaw",
+      "concept": "auto rickshaw",
+      "label": "auto rickshaw",
+      "synonyms": [
+        "auto",
+        "rickshaw",
+        "tuk"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/auto-rickshaw.svg",
+      "pngPath": "assets/generated/icon-library/png/auto-rickshaw.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T09:01:48.920Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.304,
+        "coverage": 0.522
+      }
+    },
+    {
+      "id": "avocado",
+      "concept": "avocado",
+      "label": "avocado",
+      "synonyms": [
+        "food",
+        "fruit"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/avocado.svg",
+      "pngPath": "assets/generated/icon-library/png/avocado.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T09:06:33.049Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.18,
+        "coverage": 0.592
+      }
+    },
+    {
+      "id": "axe",
+      "concept": "axe",
+      "label": "axe",
+      "synonyms": [
+        "wood",
+        "chop",
+        "stump"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/axe.svg",
+      "pngPath": "assets/generated/icon-library/png/axe.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T09:02:32.258Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.301,
+        "coverage": 0.638
+      }
+    },
+    {
+      "id": "baby",
+      "concept": "baby",
+      "label": "baby",
+      "synonyms": [
+        "babies",
+        "children",
+        "goo",
+        "infant",
+        "newborn",
+        "pregnant",
+        "young",
+        "human"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/baby.svg",
+      "pngPath": "assets/generated/icon-library/png/baby.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T09:05:37.733Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.295,
+        "coverage": 0.757
+      }
+    },
+    {
+      "id": "baby-chick",
+      "concept": "baby chick",
+      "label": "baby chick",
+      "synonyms": [
+        "animal",
+        "baby",
+        "bird",
+        "chick",
+        "ornithology",
+        "small",
+        "egg"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/baby-chick.svg",
+      "pngPath": "assets/generated/icon-library/png/baby-chick.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T16:22:47.276Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.219,
+        "coverage": 0.594
+      }
+    },
+    {
+      "id": "backhand-index-pointing-down",
+      "concept": "backhand index pointing down",
+      "label": "backhand index pointing down",
+      "synonyms": [
+        "backhand",
+        "down",
+        "finger",
+        "hand",
+        "index",
+        "point",
+        "pointing",
+        "point down"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/backhand-index-pointing-down.svg",
+      "pngPath": "assets/generated/icon-library/png/backhand-index-pointing-down.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T10:24:50.840Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.244,
+        "coverage": 0.62
+      }
+    },
+    {
+      "id": "backhand-index-pointing-left",
+      "concept": "backhand index pointing left",
+      "label": "backhand index pointing left",
+      "synonyms": [
+        "backhand",
+        "finger",
+        "hand",
+        "index",
+        "left",
+        "point",
+        "pointing",
+        "point left"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/backhand-index-pointing-left.svg",
+      "pngPath": "assets/generated/icon-library/png/backhand-index-pointing-left.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T10:34:01.789Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.244,
+        "coverage": 0.432
+      }
+    },
+    {
+      "id": "backhand-index-pointing-right",
+      "concept": "backhand index pointing right",
+      "label": "backhand index pointing right",
+      "synonyms": [
+        "backhand",
+        "finger",
+        "hand",
+        "index",
+        "point",
+        "pointing",
+        "right",
+        "point right"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/backhand-index-pointing-right.svg",
+      "pngPath": "assets/generated/icon-library/png/backhand-index-pointing-right.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T10:26:07.071Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.252,
+        "coverage": 0.474
+      }
+    },
+    {
+      "id": "backhand-index-pointing-up",
+      "concept": "backhand index pointing up",
+      "label": "backhand index pointing up",
+      "synonyms": [
+        "backhand",
+        "finger",
+        "hand",
+        "index",
+        "point",
+        "pointing",
+        "up",
+        "point up"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/backhand-index-pointing-up.svg",
+      "pngPath": "assets/generated/icon-library/png/backhand-index-pointing-up.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T10:24:59.910Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.281,
+        "coverage": 0.529
+      }
+    },
+    {
+      "id": "backpack",
+      "concept": "backpack",
+      "label": "backpack",
+      "synonyms": [
+        "backpacking",
+        "bag",
+        "bookbag",
+        "education",
+        "rucksack",
+        "satchel",
+        "school",
+        "young"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/backpack.svg",
+      "pngPath": "assets/generated/icon-library/png/backpack.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T10:27:18.062Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.249,
+        "coverage": 0.684
+      }
+    },
+    {
+      "id": "baguette-bread",
+      "concept": "baguette bread",
+      "label": "baguette bread",
+      "synonyms": [
+        "baguette",
+        "bread",
+        "food",
+        "french"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/baguette-bread.svg",
+      "pngPath": "assets/generated/icon-library/png/baguette-bread.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T10:40:17.352Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.186,
+        "coverage": 0.474
+      }
+    },
+    {
+      "id": "ballot-box-with-ballot",
+      "concept": "ballot box with ballot",
+      "label": "ballot box with ballot",
+      "synonyms": [
+        "ballot",
+        "box"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/ballot-box-with-ballot.svg",
+      "pngPath": "assets/generated/icon-library/png/ballot-box-with-ballot.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T10:50:00.597Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.191,
+        "coverage": 0.711
+      }
+    },
+    {
+      "id": "bandage-change",
+      "concept": "bandage change",
+      "label": "bandage change",
+      "synonyms": [
+        "hospital",
+        "gauze",
+        "dressing",
+        "wound"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bandage-change.svg",
+      "pngPath": "assets/generated/icon-library/png/bandage-change.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T10:54:21.883Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.21,
+        "coverage": 0.729
+      }
+    },
+    {
+      "id": "bank",
+      "concept": "bank",
+      "label": "Bank",
+      "synonyms": [
+        "bank",
+        "finance",
+        "institution"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bank.svg",
+      "pngPath": "assets/generated/icon-library/png/bank.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T01:34:17.220Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.245,
+        "coverage": 0.729
+      }
+    },
+    {
+      "id": "bari-flag",
+      "concept": "bari flag",
+      "label": "bari flag",
+      "synonyms": [
+        "bari",
+        "italy",
+        "province",
+        "apulia"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bari-flag.svg",
+      "pngPath": "assets/generated/icon-library/png/bari-flag.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T12:50:53.454Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.177,
+        "coverage": 0.605
+      }
+    },
+    {
+      "id": "bat",
+      "concept": "bat",
+      "label": "bat",
+      "synonyms": [
+        "animal",
+        "vampire",
+        "batman",
+        "dracula"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bat.svg",
+      "pngPath": "assets/generated/icon-library/png/bat.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T12:58:37.803Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.227,
+        "coverage": 0.438
+      }
+    },
+    {
+      "id": "battery",
+      "concept": "battery",
+      "label": "battery",
+      "synonyms": [
+        "electricity",
+        "energy",
+        "electric"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/battery.svg",
+      "pngPath": "assets/generated/icon-library/png/battery.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:21:43.168Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.207,
+        "coverage": 0.396
+      }
+    },
+    {
+      "id": "bavaria-flag",
+      "concept": "bavaria flag",
+      "label": "bavaria flag",
+      "synonyms": [
+        "state",
+        "lozenge"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bavaria-flag.svg",
+      "pngPath": "assets/generated/icon-library/png/bavaria-flag.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:00:33.668Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.188,
+        "coverage": 0.62
+      }
+    },
+    {
+      "id": "beaming-face-with-smiling-eyes",
+      "concept": "beaming face with smiling eyes",
+      "label": "beaming face with smiling eyes",
+      "synonyms": [
+        "beaming",
+        "eye",
+        "eyes",
+        "face",
+        "grin",
+        "grinning",
+        "happy",
+        "nice"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/beaming-face-with-smiling-eyes.svg",
+      "pngPath": "assets/generated/icon-library/png/beaming-face-with-smiling-eyes.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:04:35.306Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.194,
+        "coverage": 0.766
+      }
+    },
+    {
+      "id": "bear",
+      "concept": "bear",
+      "label": "bear",
+      "synonyms": [
+        "animal",
+        "face",
+        "grizzly",
+        "growl",
+        "honey",
+        "brown"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bear.svg",
+      "pngPath": "assets/generated/icon-library/png/bear.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:29:51.762Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.198,
+        "coverage": 0.747
+      }
+    },
+    {
+      "id": "bed-linen",
+      "concept": "bed linen",
+      "label": "bed linen",
+      "synonyms": [
+        "hospital",
+        "bedding",
+        "sheets"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bed-linen.svg",
+      "pngPath": "assets/generated/icon-library/png/bed-linen.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:35:41.970Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.237,
+        "coverage": 0.492
+      }
+    },
+    {
+      "id": "bell-pepper",
+      "concept": "bell pepper",
+      "label": "bell pepper",
+      "synonyms": [
+        "bell",
+        "capsicum",
+        "food",
+        "pepper",
+        "vegetable"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bell-pepper.svg",
+      "pngPath": "assets/generated/icon-library/png/bell-pepper.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:37:49.761Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.228,
+        "coverage": 0.583
+      }
+    },
+    {
+      "id": "bell-with-slash",
+      "concept": "bell with slash",
+      "label": "bell with slash",
+      "synonyms": [
+        "bell",
+        "forbidden",
+        "mute",
+        "no",
+        "not",
+        "prohibited",
+        "quiet",
+        "silent"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bell-with-slash.svg",
+      "pngPath": "assets/generated/icon-library/png/bell-with-slash.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:44:53.017Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.332,
+        "coverage": 0.638
+      }
+    },
+    {
+      "id": "bellhop-bell",
+      "concept": "bellhop bell",
+      "label": "bellhop bell",
+      "synonyms": [
+        "bell",
+        "bellhop"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bellhop-bell.svg",
+      "pngPath": "assets/generated/icon-library/png/bellhop-bell.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:41:48.930Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.241,
+        "coverage": 0.684
+      }
+    },
+    {
+      "id": "bento-box",
+      "concept": "bento box",
+      "label": "bento box",
+      "synonyms": [
+        "bento",
+        "box",
+        "food"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bento-box.svg",
+      "pngPath": "assets/generated/icon-library/png/bento-box.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:47:57.683Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.219,
+        "coverage": 0.468
+      }
+    },
+    {
+      "id": "berlin-flag",
+      "concept": "berlin flag",
+      "label": "berlin flag",
+      "synonyms": [
+        "bear",
+        "city",
+        "capital"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/berlin-flag.svg",
+      "pngPath": "assets/generated/icon-library/png/berlin-flag.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:46:44.724Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.212,
+        "coverage": 0.72
+      }
+    },
+    {
+      "id": "beverage-box",
+      "concept": "beverage box",
+      "label": "beverage box",
+      "synonyms": [
+        "beverage",
+        "box",
+        "juice",
+        "straw",
+        "sweet"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/beverage-box.svg",
+      "pngPath": "assets/generated/icon-library/png/beverage-box.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:52:39.417Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.19,
+        "coverage": 0.492
+      }
+    },
+    {
+      "id": "bicycle",
+      "concept": "bicycle",
+      "label": "bicycle",
+      "synonyms": [
+        "bike",
+        "class",
+        "cycle",
+        "cycling",
+        "cyclist",
+        "gang",
+        "ride",
+        "spin"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/bicycle.svg",
+      "pngPath": "assets/generated/icon-library/png/bicycle.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T13:50:43.332Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.378,
+        "coverage": 0.585
+      }
+    },
+    {
+      "id": "billed-cap",
+      "concept": "billed cap",
+      "label": "billed cap",
+      "synonyms": [
+        "baseball",
+        "bent",
+        "billed",
+        "cap",
+        "dad",
+        "hat"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/billed-cap.svg",
+      "pngPath": "assets/generated/icon-library/png/billed-cap.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:12:59.830Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.189,
+        "coverage": 0.702
+      }
+    },
+    {
+      "id": "biohazard",
+      "concept": "biohazard",
+      "label": "biohazard",
+      "synonyms": [
+        "sign"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/biohazard.svg",
+      "pngPath": "assets/generated/icon-library/png/biohazard.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:00:39.196Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.406,
+        "coverage": 0.702
+      }
+    },
+    {
+      "id": "birthday-cake",
+      "concept": "birthday cake",
+      "label": "birthday cake",
+      "synonyms": [
+        "bday",
+        "birthday",
+        "cake",
+        "celebration",
+        "dessert",
+        "happy",
+        "pastry",
+        "sweet"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/birthday-cake.svg",
+      "pngPath": "assets/generated/icon-library/png/birthday-cake.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:10:38.724Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.193,
+        "coverage": 0.666
+      }
+    },
+    {
+      "id": "biting-lip",
+      "concept": "biting lip",
+      "label": "biting lip",
+      "synonyms": [
+        "anxious",
+        "bite",
+        "biting",
+        "fear",
+        "flirt",
+        "flirting",
+        "kiss",
+        "lip"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/biting-lip.svg",
+      "pngPath": "assets/generated/icon-library/png/biting-lip.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:08:39.908Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.325,
+        "coverage": 0.51
+      }
+    },
+    {
+      "id": "black-chess-bishop",
+      "concept": "black chess bishop",
+      "label": "black chess bishop",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/black-chess-bishop.svg",
+      "pngPath": "assets/generated/icon-library/png/black-chess-bishop.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:15:39.141Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.282,
+        "coverage": 0.45
+      }
+    },
+    {
+      "id": "black-chess-knight",
+      "concept": "black chess knight",
+      "label": "black chess knight",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/black-chess-knight.svg",
+      "pngPath": "assets/generated/icon-library/png/black-chess-knight.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T14:20:46.275Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.205,
+        "coverage": 0.495
+      }
+    },
+    {
+      "id": "blockchain",
+      "concept": "blockchain",
+      "label": "Blockchain",
+      "synonyms": [
+        "blockchain",
+        "chain",
+        "ledger"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/blockchain.svg",
+      "pngPath": "assets/generated/icon-library/png/blockchain.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:00:31.934Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.308,
+        "coverage": 0.747
+      }
+    },
+    {
+      "id": "brain",
+      "concept": "brain",
+      "label": "Brain",
+      "synonyms": [
+        "brain",
+        "ai",
+        "intelligence",
+        "neural"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/brain.svg",
+      "pngPath": "assets/generated/icon-library/png/brain.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T01:26:24.979Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.198,
+        "coverage": 0.648
+      }
+    },
+    {
+      "id": "chart",
+      "concept": "chart",
+      "label": "Chart",
+      "synonyms": [
+        "chart",
+        "growth",
+        "metrics"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/chart.svg",
+      "pngPath": "assets/generated/icon-library/png/chart.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:09:02.619Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.472,
+        "coverage": 0.747
+      }
+    },
+    {
+      "id": "check",
+      "concept": "check",
+      "label": "Check",
+      "synonyms": [
+        "verified",
+        "done",
+        "success"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/check.svg",
+      "pngPath": "assets/generated/icon-library/png/check.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:20:07.672Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.302,
+        "coverage": 0.656
+      }
+    },
+    {
+      "id": "chip",
+      "concept": "chip",
+      "label": "Chip",
+      "synonyms": [
+        "chip",
+        "gpu",
+        "processor",
+        "hardware"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/chip.svg",
+      "pngPath": "assets/generated/icon-library/png/chip.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:06:23.509Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.193,
+        "coverage": 0.693
+      }
+    },
+    {
+      "id": "clock",
+      "concept": "clock",
+      "label": "Clock",
+      "synonyms": [
+        "time",
+        "speed",
+        "delay"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/clock.svg",
+      "pngPath": "assets/generated/icon-library/png/clock.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:18:08.130Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.19,
+        "coverage": 0.766
+      }
+    },
+    {
+      "id": "cloud",
+      "concept": "cloud",
+      "label": "Cloud",
+      "synonyms": [
+        "cloud",
+        "internet",
+        "hosted"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/cloud.svg",
+      "pngPath": "assets/generated/icon-library/png/cloud.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:03:31.979Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.165,
+        "coverage": 0.468
+      }
+    },
+    {
+      "id": "code",
+      "concept": "code",
+      "label": "Code",
+      "synonyms": [
+        "code",
+        "software",
+        "program"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/code.svg",
+      "pngPath": "assets/generated/icon-library/png/code.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:07:43.202Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.191,
+        "coverage": 0.702
+      }
+    },
+    {
+      "id": "coin",
+      "concept": "coin",
+      "label": "Coin",
+      "synonyms": [
+        "coin",
+        "token",
+        "crypto"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/coin.svg",
+      "pngPath": "assets/generated/icon-library/png/coin.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:57:06.735Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.187,
+        "coverage": 0.747
+      }
+    },
+    {
+      "id": "concept",
+      "concept": "generic",
+      "label": "Concept",
+      "synonyms": [
+        "concept",
+        "placeholder",
+        "idea"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/concept.svg",
+      "pngPath": "assets/generated/icon-library/png/concept.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:21:07.673Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.253,
+        "coverage": 0.529
+      }
+    },
+    {
+      "id": "connection",
+      "concept": "connection",
+      "label": "Connection",
+      "synonyms": [
+        "connection",
+        "edge",
+        "link",
+        "path"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/connection.svg",
+      "pngPath": "assets/generated/icon-library/png/connection.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:45:42.128Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.224,
+        "coverage": 0.468
+      }
+    },
+    {
+      "id": "currency",
+      "concept": "currency",
+      "label": "Currency",
+      "synonyms": [
+        "money",
+        "currency",
+        "cash",
+        "dollar"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/currency.svg",
+      "pngPath": "assets/generated/icon-library/png/currency.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:56:06.234Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.298,
+        "coverage": 0.585
+      }
+    },
+    {
+      "id": "data",
+      "concept": "data",
+      "label": "Data",
+      "synonyms": [
+        "data",
+        "information",
+        "dataset"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/data.svg",
+      "pngPath": "assets/generated/icon-library/png/data.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:25:14.085Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.179,
+        "coverage": 0.684
+      }
+    },
+    {
+      "id": "database",
+      "concept": "database",
+      "label": "Database",
+      "synonyms": [
+        "database",
+        "storage",
+        "records"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/database.svg",
+      "pngPath": "assets/generated/icon-library/png/database.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:01:27.915Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.216,
+        "coverage": 0.674
+      }
+    },
+    {
+      "id": "dna",
+      "concept": "dna",
+      "label": "DNA",
+      "synonyms": [
+        "dna",
+        "genomics",
+        "gene",
+        "epigenetic"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/dna.svg",
+      "pngPath": "assets/generated/icon-library/png/dna.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:33:48.352Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.384,
+        "coverage": 0.365
+      }
+    },
+    {
+      "id": "document",
+      "concept": "document",
+      "label": "Document",
+      "synonyms": [
+        "document",
+        "paper",
+        "policy",
+        "file"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/document.svg",
+      "pngPath": "assets/generated/icon-library/png/document.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:09:15.669Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.156,
+        "coverage": 0.62
+      }
+    },
+    {
+      "id": "feedback",
+      "concept": "feedback",
+      "label": "Feedback",
+      "synonyms": [
+        "feedback",
+        "loop",
+        "correction"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/feedback.svg",
+      "pngPath": "assets/generated/icon-library/png/feedback.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:49:53.439Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.204,
+        "coverage": 0.638
+      }
+    },
+    {
+      "id": "globe",
+      "concept": "globe",
+      "label": "Globe",
+      "synonyms": [
+        "global",
+        "world",
+        "cross border"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/globe.svg",
+      "pngPath": "assets/generated/icon-library/png/globe.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:14:53.120Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.292,
+        "coverage": 0.63
+      }
+    },
+    {
+      "id": "group",
+      "concept": "group",
+      "label": "Group",
+      "synonyms": [
+        "team",
+        "people",
+        "community",
+        "users"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/group.svg",
+      "pngPath": "assets/generated/icon-library/png/group.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:35:39.853Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.258,
+        "coverage": 0.423
+      }
+    },
+    {
+      "id": "house",
+      "concept": "house",
+      "label": "House",
+      "synonyms": [
+        "house",
+        "home",
+        "property"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/house.svg",
+      "pngPath": "assets/generated/icon-library/png/house.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:11:52.467Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.215,
+        "coverage": 0.702
+      }
+    },
+    {
+      "id": "layer",
+      "concept": "layer",
+      "label": "Layer",
+      "synonyms": [
+        "layer",
+        "hidden",
+        "stack"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/layer.svg",
+      "pngPath": "assets/generated/icon-library/png/layer.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:41:04.167Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.172,
+        "coverage": 0.729
+      }
+    },
+    {
+      "id": "learning",
+      "concept": "learning",
+      "label": "Learning",
+      "synonyms": [
+        "learning",
+        "training",
+        "improvement"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/learning.svg",
+      "pngPath": "assets/generated/icon-library/png/learning.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:51:58.241Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.221,
+        "coverage": 0.656
+      }
+    },
+    {
+      "id": "liver",
+      "concept": "liver",
+      "label": "Liver",
+      "synonyms": [
+        "liver",
+        "organ",
+        "trial",
+        "biology"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/liver.svg",
+      "pngPath": "assets/generated/icon-library/png/liver.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:25:58.209Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.163,
+        "coverage": 0.565
+      }
+    },
+    {
+      "id": "lock",
+      "concept": "lock",
+      "label": "Lock",
+      "synonyms": [
+        "lock",
+        "security",
+        "private"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/lock.svg",
+      "pngPath": "assets/generated/icon-library/png/lock.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:16:17.366Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.229,
+        "coverage": 0.62
+      }
+    },
+    {
+      "id": "magnifier-inspect",
+      "concept": "magnifier",
+      "label": "Inspect",
+      "synonyms": [
+        "inspect",
+        "search",
+        "analysis"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/magnifier-inspect.svg",
+      "pngPath": "assets/generated/icon-library/png/magnifier-inspect.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T01:35:32.914Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.276,
+        "coverage": 0.729
+      }
+    },
+    {
+      "id": "medicine",
+      "concept": "flask",
+      "label": "Medicine",
+      "synonyms": [
+        "medicine",
+        "prototype",
+        "drug",
+        "lab",
+        "flask"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/medicine.svg",
+      "pngPath": "assets/generated/icon-library/png/medicine.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:26:42.859Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.227,
+        "coverage": 0.583
+      }
+    },
+    {
+      "id": "network",
+      "concept": "network",
+      "label": "Network",
+      "synonyms": [
+        "network",
+        "graph",
+        "nodes",
+        "distributed"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/network.svg",
+      "pngPath": "assets/generated/icon-library/png/network.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:39:50.545Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.485,
+        "coverage": 0.702
+      }
+    },
+    {
+      "id": "neuron",
+      "concept": "neuron",
+      "label": "Neuron",
+      "synonyms": [
+        "neuron",
+        "node",
+        "neural",
+        "signal"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/neuron.svg",
+      "pngPath": "assets/generated/icon-library/png/neuron.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:43:12.037Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.405,
+        "coverage": 0.702
+      }
+    },
+    {
+      "id": "output",
+      "concept": "output",
+      "label": "Output",
+      "synonyms": [
+        "output",
+        "result",
+        "prediction"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/output.svg",
+      "pngPath": "assets/generated/icon-library/png/output.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:49:34.323Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.23,
+        "coverage": 0.583
+      }
+    },
+    {
+      "id": "person",
+      "concept": "person",
+      "label": "Person",
+      "synonyms": [
+        "user",
+        "customer",
+        "sender",
+        "receiver",
+        "person"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/person.svg",
+      "pngPath": "assets/generated/icon-library/png/person.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-18T01:26:15.076Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.231,
+        "coverage": 0.594
+      }
+    },
+    {
+      "id": "pipeline",
+      "concept": "pipeline",
+      "label": "Pipeline",
+      "synonyms": [
+        "pipeline",
+        "flow",
+        "stages"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/pipeline.svg",
+      "pngPath": "assets/generated/icon-library/png/pipeline.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:10:57.989Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.37,
+        "coverage": 0.738
+      }
+    },
+    {
+      "id": "rocket",
+      "concept": "rocket",
+      "label": "rocket",
+      "synonyms": [
+        "launch",
+        "startup",
+        "ship"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/rocket.svg",
+      "pngPath": "assets/generated/icon-library/png/rocket.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T16:44:21.894Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.312,
+        "coverage": 0.31
+      }
+    },
+    {
+      "id": "server",
+      "concept": "server",
+      "label": "Server",
+      "synonyms": [
+        "server",
+        "compute",
+        "backend"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/server.svg",
+      "pngPath": "assets/generated/icon-library/png/server.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:06:31.924Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.233,
+        "coverage": 0.51
+      }
+    },
+    {
+      "id": "shield",
+      "concept": "shield",
+      "label": "Shield",
+      "synonyms": [
+        "shield",
+        "protection",
+        "safety"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/shield.svg",
+      "pngPath": "assets/generated/icon-library/png/shield.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:13:40.523Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.18,
+        "coverage": 0.612
+      }
+    },
+    {
+      "id": "switch",
+      "concept": "transcription switch",
+      "label": "Switch",
+      "synonyms": [
+        "transcription",
+        "factor",
+        "switch",
+        "on",
+        "off"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/switch.svg",
+      "pngPath": "assets/generated/icon-library/png/switch.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:25:10.289Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.271,
+        "coverage": 0.51
+      }
+    },
+    {
+      "id": "timeline",
+      "concept": "calendar",
+      "label": "Timeline",
+      "synonyms": [
+        "calendar",
+        "year",
+        "schedule",
+        "raise"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/timeline.svg",
+      "pngPath": "assets/generated/icon-library/png/timeline.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:31:47.574Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.174,
+        "coverage": 0.702
+      }
+    },
+    {
+      "id": "wallet",
+      "concept": "wallet",
+      "label": "Wallet",
+      "synonyms": [
+        "wallet",
+        "account",
+        "payment"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/wallet.svg",
+      "pngPath": "assets/generated/icon-library/png/wallet.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:53:25.323Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.164,
+        "coverage": 0.63
+      }
+    },
+    {
+      "id": "warning",
+      "concept": "warning",
+      "label": "Warning",
+      "synonyms": [
+        "risk",
+        "problem",
+        "alert"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/warning.svg",
+      "pngPath": "assets/generated/icon-library/png/warning.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:18:55.676Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.233,
+        "coverage": 0.702
+      }
+    },
+    {
+      "id": "weight",
+      "concept": "weight",
+      "label": "Weight",
+      "synonyms": [
+        "weight",
+        "importance",
+        "scale"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/weight.svg",
+      "pngPath": "assets/generated/icon-library/png/weight.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T17:45:01.603Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.218,
+        "coverage": 0.602
+      }
+    },
+    {
+      "id": "young-cell",
+      "concept": "young cell",
+      "label": "Young Cell",
+      "synonyms": [
+        "young",
+        "cell",
+        "rejuvenated"
+      ],
+      "svgPath": "assets/generated/icon-library/svg/young-cell.svg",
+      "pngPath": "assets/generated/icon-library/png/young-cell.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-17T18:24:05.955Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.186,
+        "coverage": 0.757
+      }
+    }
+  ]
+}
