@@ -10,6 +10,7 @@ import {
   MessageSquare,
   Loader2,
   User,
+  LogOut,
 } from "lucide-react";
 
 import { cn } from "@/lib/utils";
@@ -72,7 +73,9 @@ export function Sidebar({
   onNewChat,
   onSelectChat,
   onOpenGallery,
+  galleryCount,
   userLabel,
+  onSignOut,
 }: {
   jobs: VideoJob[] | undefined;
   activeJobId: string | null;
@@ -82,11 +85,11 @@ export function Sidebar({
   onNewChat: () => void;
   onSelectChat: (id: string) => void;
   onOpenGallery: () => void;
+  galleryCount: number;
   userLabel: string;
+  onSignOut: () => void;
 }) {
   const [query, setQuery] = useState("");
-
-  const galleryCount = (jobs ?? []).filter((j) => j.status === "completed" && j.videoUrl).length;
 
   const { today, earlier } = useMemo(() => {
     const list = (jobs ?? []).filter((j) =>
@@ -197,6 +200,19 @@ export function Sidebar({
             <User className="size-4" />
           </span>
           <span className="truncate text-sm font-medium text-sidebar-foreground">{userLabel}</span>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <button
+                type="button"
+                onClick={onSignOut}
+                aria-label="Sign out"
+                className="ml-auto flex size-7 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-sidebar-accent hover:text-sidebar-foreground"
+              >
+                <LogOut className="size-4" />
+              </button>
+            </TooltipTrigger>
+            <TooltipContent side="top">Sign out</TooltipContent>
+          </Tooltip>
         </div>
       </div>
     </aside>

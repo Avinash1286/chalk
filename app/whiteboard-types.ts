@@ -22,6 +22,15 @@ export type VideoJob = {
   plannerSource?: string;
   audioSource?: string;
   createdAt?: number;
+  // Owner display name (gallery) and whether the viewer owns this job.
+  ownerName?: string | null;
+  mine?: boolean;
+};
+
+export type AuthUser = {
+  id: string;
+  username: string;
+  displayName: string;
 };
 
 // Convex function references. Typed as `any` so the frontend doesn't depend on
@@ -29,7 +38,15 @@ export type VideoJob = {
 export const createVideoJobRef = "jobs:createVideoJob" as any;
 export const getVideoJobRef = "jobs:getVideoJob" as any;
 export const retryVideoJobRef = "jobs:retryVideoJob" as any;
-export const listVideoJobsRef = "jobs:listVideoJobs" as any;
+export const listMyVideoJobsRef = "jobs:listMyVideoJobs" as any;
+export const listGalleryJobsRef = "jobs:listGalleryJobs" as any;
+
+export const signUpRef = "auth:signUp" as any;
+export const signInRef = "auth:signIn" as any;
+export const signOutRef = "auth:signOut" as any;
+export const meRef = "auth:me" as any;
+
+export const AUTH_TOKEN_KEY = "chalk-auth-token";
 
 export const statusLabels: Record<JobStatus, string> = {
   queued: "Queued",

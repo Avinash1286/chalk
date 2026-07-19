@@ -2,8 +2,30 @@ import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
 
 export default defineSchema({
+  // Lightweight accounts. Passwords are PBKDF2-hashed (see convex/auth.ts); the
+  // plaintext is never stored. `username` is the lookup key; `displayName` is
+  // what other users see on shared gallery videos.
+  users: defineTable({
+    username: v.string(), // lowercased, unique
+    displayName: v.string(),
+    passwordHash: v.string(),
+    passwordSalt: v.string(),
+    createdAt: v.number(),
+  }).index("by_username", ["username"]),
+
+  // Opaque bearer tokens minted at sign-in and validated server-side on every
+  // authenticated call. Stored in the browser's localStorage.
+  sessions: defineTable({
+    token: v.string(),
+    userId: v.id("users"),
+    createdAt: v.number(),
+  }).index("by_token", ["token"]),
+
   videoJobs: defineTable({
     prompt: v.string(),
+    // Owner. Optional so pre-auth rows and worker flows stay valid; set on
+    // creation for every job made through the signed-in UI.
+    userId: v.optional(v.id("users")),
     gridBackground: v.optional(v.boolean()),
     status: v.union(
       v.literal("queued"),
@@ -36,5 +58,6 @@ export default defineSchema({
     updatedAt: v.number(),
   })
     .index("by_status", ["status"])
-    .index("by_created", ["createdAt"]),
+    .index("by_created", ["createdAt"])
+    .index("by_user", ["userId"]),
 });

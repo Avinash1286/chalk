@@ -1,7 +1,8 @@
 import { v } from "convex/values";
 import { internalMutation, internalQuery, mutation, query, type MutationCtx } from "./_generated/server";
 import { internal } from "./_generated/api";
-import type { Doc } from "./_generated/dataModel";
+import type { Doc, Id } from "./_generated/dataModel";
+import { requireUserId, userForToken } from "./auth";
 
 const statusValidator = v.union(
   v.literal("queued"),
@@ -14,11 +15,13 @@ const statusValidator = v.union(
 );
 
 export const createVideoJob = mutation({
-  args: { prompt: v.string(), gridBackground: v.optional(v.boolean()) },
+  args: { prompt: v.string(), gridBackground: v.optional(v.boolean()), token: v.optional(v.string()) },
   handler: async (ctx, args) => {
+    const userId = await requireUserId(ctx, args.token);
     const now = Date.now();
     const jobId = await ctx.db.insert("videoJobs", {
       prompt: args.prompt,
+      userId,
       gridBackground: args.gridBackground ?? false,
       status: "queued",
       progress: 0,
@@ -44,28 +47,71 @@ function hlsUrlFor(job: Doc<"videoJobs">): string | null {
 }
 
 export const getVideoJob = query({
-  args: { jobId: v.id("videoJobs") },
+  args: { jobId: v.id("videoJobs"), token: v.optional(v.string()) },
   handler: async (ctx, args) => {
     const job = await ctx.db.get(args.jobId);
     if (!job) return null;
+    const viewer = await userForToken(ctx, args.token);
     const storageUrl = job.videoFileId ? await ctx.storage.getUrl(job.videoFileId) : null;
+    const owner = job.userId ? await ctx.db.get(job.userId) : null;
     return {
       ...job,
       videoUrl: storageUrl ?? job.videoUrl ?? null,
       hlsUrl: hlsUrlFor(job),
+      ownerName: owner?.displayName ?? null,
+      // Owner-only actions (Resume / Regenerate) are gated on this in the UI and
+      // re-checked server-side in retryVideoJob.
+      mine: Boolean(viewer && job.userId && job.userId === viewer._id),
     };
   },
 });
 
-export const listVideoJobs = query({
-  args: {},
-  handler: async (ctx) => {
-    const jobs = await ctx.db.query("videoJobs").order("desc").take(20);
+// The signed-in user's own chats — powers the sidebar history (all statuses).
+export const listMyVideoJobs = query({
+  args: { token: v.optional(v.string()) },
+  handler: async (ctx, args) => {
+    const viewer = await userForToken(ctx, args.token);
+    if (!viewer) return [];
+    const jobs = await ctx.db
+      .query("videoJobs")
+      .withIndex("by_user", (q) => q.eq("userId", viewer._id))
+      .order("desc")
+      .take(40);
     return Promise.all(
       jobs.map(async (job) => ({
         ...job,
         videoUrl: job.videoFileId ? await ctx.storage.getUrl(job.videoFileId) : job.videoUrl ?? null,
         hlsUrl: hlsUrlFor(job),
+        ownerName: viewer.displayName,
+        mine: true,
+      })),
+    );
+  },
+});
+
+// Everyone's finished videos — the public gallery. `mine` flags the viewer's own.
+export const listGalleryJobs = query({
+  args: { token: v.optional(v.string()) },
+  handler: async (ctx, args) => {
+    const viewer = await userForToken(ctx, args.token);
+    const jobs = await ctx.db
+      .query("videoJobs")
+      .withIndex("by_status", (q) => q.eq("status", "completed"))
+      .order("desc")
+      .take(60);
+    const nameCache = new Map<string, string | null>();
+    const ownerName = async (userId: Id<"users"> | undefined): Promise<string | null> => {
+      if (!userId) return null;
+      if (!nameCache.has(userId)) nameCache.set(userId, (await ctx.db.get(userId))?.displayName ?? null);
+      return nameCache.get(userId) ?? null;
+    };
+    return Promise.all(
+      jobs.map(async (job) => ({
+        ...job,
+        videoUrl: job.videoFileId ? await ctx.storage.getUrl(job.videoFileId) : job.videoUrl ?? null,
+        hlsUrl: hlsUrlFor(job),
+        ownerName: await ownerName(job.userId),
+        mine: Boolean(viewer && job.userId && job.userId === viewer._id),
       })),
     );
   },
@@ -113,10 +159,12 @@ async function deleteHlsFiles(ctx: MutationCtx, job: Doc<"videoJobs"> | null): P
 }
 
 export const retryVideoJob = mutation({
-  args: { jobId: v.id("videoJobs") },
+  args: { jobId: v.id("videoJobs"), token: v.optional(v.string()) },
   handler: async (ctx, args) => {
+    const userId = await requireUserId(ctx, args.token);
     const job = await ctx.db.get(args.jobId);
     if (!job) throw new Error("Job not found");
+    if (job.userId !== userId) throw new Error("You can only resume your own videos.");
     // The retried render streams fresh segments — release the old ones.
     await deleteHlsFiles(ctx, job);
     const now = Date.now();

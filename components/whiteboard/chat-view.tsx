@@ -108,7 +108,9 @@ function JobResponse({
 
         {(failed || complete) && (
           <div className="flex gap-2">
-            {failed && (
+            {/* Resume mutates THIS job — owner only. Regenerate makes a new job
+                from the prompt, so anyone can do it (it becomes theirs). */}
+            {failed && job.mine !== false && (
               <Button variant="secondary" size="sm" onClick={onResume} disabled={busy}>
                 <RotateCcw className="size-4" /> Resume
               </Button>

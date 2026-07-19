@@ -48,6 +48,12 @@ Leave `NEXT_PUBLIC_DEMO` unset so generation is ENABLED. (Setting it to `off`
 flips the site into gallery-only showcase mode — a useful kill switch if you
 ever need it during judging: flip the var and redeploy.)
 
+**Accounts.** Auth is built in (custom username/password, `convex/auth.ts`) —
+no extra setup, env vars, or provisioning; `convex deploy` pushes the `users`/
+`sessions` tables automatically. Judges open `/chalk`, create an account, and
+their videos are tracked to them. The landing page `/` stays public. Each user's
+sidebar shows only their own chats; the Gallery shows everyone's finished videos.
+
 ## 3-A. Worker → GCP Compute Engine VM (recommended)
 
 Same Google account that powers Vertex/TTS — the VM's **attached service

@@ -55,6 +55,12 @@ function GalleryCard({ job, onOpen }: { job: VideoJob; onOpen: (id: string) => v
       </div>
       <div className="p-3">
         <p className="line-clamp-2 text-sm font-medium text-foreground">{job.prompt}</p>
+        <div className="mt-1.5 flex items-center gap-1.5 text-xs text-muted-foreground">
+          <span className="truncate">by {job.mine ? "you" : job.ownerName ?? "someone"}</span>
+          {job.mine && (
+            <span className="rounded-full bg-primary/10 px-1.5 py-0.5 font-medium text-primary">You</span>
+          )}
+        </div>
       </div>
     </button>
   );

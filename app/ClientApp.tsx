@@ -1,21 +1,27 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { ConvexProvider, ConvexReactClient, useMutation, useQuery } from "convex/react";
-import { SquareDashedMousePointer } from "lucide-react";
+import { Loader2, SquareDashedMousePointer } from "lucide-react";
 import { Toaster, toast } from "sonner";
 
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Sidebar } from "@/components/whiteboard/sidebar";
 import { ChatView } from "@/components/whiteboard/chat-view";
 import { GalleryView } from "@/components/whiteboard/gallery-view";
+import { AuthView } from "@/components/whiteboard/auth-view";
 import { BrandMark } from "@/components/whiteboard/brand-mark";
 import {
+  type AuthUser,
   type VideoJob,
+  AUTH_TOKEN_KEY,
   createVideoJobRef,
   getVideoJobRef,
   retryVideoJobRef,
-  listVideoJobsRef,
+  listMyVideoJobsRef,
+  listGalleryJobsRef,
+  meRef,
+  signOutRef,
 } from "@/app/whiteboard-types";
 
 function SetupView() {
@@ -38,7 +44,17 @@ npm run dev`}</pre>
   );
 }
 
-function ConfiguredApp({ generationEnabled }: { generationEnabled: boolean }) {
+function ConfiguredApp({
+  generationEnabled,
+  token,
+  user,
+  onSignOut,
+}: {
+  generationEnabled: boolean;
+  token: string;
+  user: AuthUser;
+  onSignOut: () => void;
+}) {
   const [view, setView] = useState<"chat" | "gallery">("chat");
   const [jobId, setJobId] = useState<string | null>(null);
   const [prompt, setPrompt] = useState("");
@@ -49,8 +65,10 @@ function ConfiguredApp({ generationEnabled }: { generationEnabled: boolean }) {
 
   const createVideoJob = useMutation(createVideoJobRef);
   const retryVideoJob = useMutation(retryVideoJobRef);
-  const job = useQuery(getVideoJobRef, jobId ? { jobId } : "skip") as VideoJob | null | undefined;
-  const jobs = useQuery(listVideoJobsRef, {}) as VideoJob[] | undefined;
+  const job = useQuery(getVideoJobRef, jobId ? { jobId, token } : "skip") as VideoJob | null | undefined;
+  // Sidebar = only my chats; gallery = everyone's finished videos.
+  const myJobs = useQuery(listMyVideoJobsRef, { token }) as VideoJob[] | undefined;
+  const galleryJobs = useQuery(listGalleryJobsRef, { token }) as VideoJob[] | undefined;
 
   const jobLoading = jobId !== null && job === undefined;
 
@@ -83,10 +101,12 @@ function ConfiguredApp({ generationEnabled }: { generationEnabled: boolean }) {
     if (blockedByDemo()) return;
     setSubmitting(true);
     try {
-      const id = (await createVideoJob({ prompt: source, gridBackground })) as string;
+      const id = (await createVideoJob({ prompt: source, gridBackground, token })) as string;
       setJobId(id);
       setView("chat");
       setPrompt("");
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message.replace(/^\[.*?\]\s*/, "") : "Could not start the video.");
     } finally {
       setSubmitting(false);
     }
@@ -98,22 +118,27 @@ function ConfiguredApp({ generationEnabled }: { generationEnabled: boolean }) {
     if (blockedByDemo()) return;
     setBusy(true);
     try {
-      await retryVideoJob({ jobId: job._id });
+      await retryVideoJob({ jobId: job._id, token });
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message.replace(/^\[.*?\]\s*/, "") : "Could not resume.");
     } finally {
       setBusy(false);
     }
   }
 
-  // Regenerate: a brand-new job from the same prompt — a fresh AI pass.
+  // Regenerate: a brand-new job from the same prompt — a fresh AI pass. Becomes
+  // the current user's own video even when regenerating from someone else's.
   async function onRegenerate() {
     const source = (job?.prompt ?? prompt).trim();
     if (source.length < 8 || busy) return;
     if (blockedByDemo()) return;
     setBusy(true);
     try {
-      const id = (await createVideoJob({ prompt: source, gridBackground })) as string;
+      const id = (await createVideoJob({ prompt: source, gridBackground, token })) as string;
       setJobId(id);
       setView("chat");
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message.replace(/^\[.*?\]\s*/, "") : "Could not regenerate.");
     } finally {
       setBusy(false);
     }
@@ -123,7 +148,7 @@ function ConfiguredApp({ generationEnabled }: { generationEnabled: boolean }) {
     <TooltipProvider delayDuration={200}>
       <div className="flex h-dvh w-full overflow-hidden bg-background text-foreground">
         <Sidebar
-          jobs={jobs}
+          jobs={myJobs}
           activeJobId={jobId}
           view={view}
           collapsed={collapsed}
@@ -131,12 +156,14 @@ function ConfiguredApp({ generationEnabled }: { generationEnabled: boolean }) {
           onNewChat={onNewChat}
           onSelectChat={onSelectChat}
           onOpenGallery={() => setView("gallery")}
-          userLabel="You"
+          galleryCount={(galleryJobs ?? []).length}
+          userLabel={user.displayName}
+          onSignOut={onSignOut}
         />
 
         <main className="flex min-w-0 flex-1 flex-col">
           {view === "gallery" ? (
-            <GalleryView jobs={jobs} onOpen={onSelectChat} />
+            <GalleryView jobs={galleryJobs} onOpen={onSelectChat} />
           ) : (
             <ChatView
               job={jobId ? job : null}
@@ -155,6 +182,73 @@ function ConfiguredApp({ generationEnabled }: { generationEnabled: boolean }) {
         </main>
       </div>
     </TooltipProvider>
+  );
+}
+
+// Auth gate: reads the persisted token, validates it against the backend, and
+// shows the sign-in screen until there's a real session.
+function AuthGate({ generationEnabled }: { generationEnabled: boolean }) {
+  const [token, setToken] = useState<string | null>(null);
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    try {
+      setToken(localStorage.getItem(AUTH_TOKEN_KEY));
+    } catch {
+      // localStorage unavailable — user just signs in fresh
+    }
+    setReady(true);
+  }, []);
+
+  const me = useQuery(meRef, token ? { token } : "skip") as AuthUser | null | undefined;
+  const signOut = useMutation(signOutRef);
+
+  const onAuthed = useCallback((newToken: string, _user: AuthUser) => {
+    try {
+      localStorage.setItem(AUTH_TOKEN_KEY, newToken);
+    } catch {
+      // ignore — session lives in memory for this tab
+    }
+    setToken(newToken);
+  }, []);
+
+  const onSignOut = useCallback(async () => {
+    const current = token;
+    setToken(null);
+    try {
+      localStorage.removeItem(AUTH_TOKEN_KEY);
+    } catch {
+      // ignore
+    }
+    if (current) await signOut({ token: current }).catch(() => {});
+  }, [token, signOut]);
+
+  // A stored token that the backend rejects (expired/cleared) — drop it.
+  useEffect(() => {
+    if (token && me === null) {
+      setToken(null);
+      try {
+        localStorage.removeItem(AUTH_TOKEN_KEY);
+      } catch {
+        // ignore
+      }
+    }
+  }, [token, me]);
+
+  if (!ready || (token && me === undefined)) {
+    return (
+      <div className="flex min-h-dvh items-center justify-center bg-background">
+        <Loader2 className="size-6 animate-spin text-muted-foreground" />
+      </div>
+    );
+  }
+
+  if (!token || !me) {
+    return <AuthView onAuthed={onAuthed} />;
+  }
+
+  return (
+    <ConfiguredApp generationEnabled={generationEnabled} token={token} user={me} onSignOut={onSignOut} />
   );
 }
 
@@ -182,7 +276,7 @@ export default function ClientApp({
         <SetupView />
       ) : (
         <ConvexProvider client={convex}>
-          <ConfiguredApp generationEnabled={generationEnabled} />
+          <AuthGate generationEnabled={generationEnabled} />
         </ConvexProvider>
       )}
     </>
