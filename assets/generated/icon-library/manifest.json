@@ -1,7 +1,7 @@
 {
   "provider": "icon-library",
-  "generatedAt": "2026-07-19T13:42:01.445Z",
-  "total": 117,
+  "generatedAt": "2026-07-19T14:16:12.452Z",
+  "total": 118,
   "entries": [
     {
       "id": "1st-place-medal",
@@ -1994,6 +1994,22 @@
         "styleOk": true,
         "inkFrac": 0.292,
         "coverage": 0.63
+      }
+    },
+    {
+      "id": "government-capitol-building",
+      "concept": "government",
+      "label": "capitol building",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/government-capitol-building.svg",
+      "pngPath": "assets/generated/icon-library/png/government-capitol-building.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-19T14:16:12.437Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.323,
+        "coverage": 0.729
       }
     },
     {
