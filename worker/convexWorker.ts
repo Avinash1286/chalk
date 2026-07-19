@@ -158,7 +158,7 @@ async function processOneJob(): Promise<boolean> {
     const message = error instanceof Error ? error.stack || error.message : String(error);
     await client.mutation(failVideoJob, { jobId: job.jobId, error: message });
     console.error(`Failed ${job.jobId}`, error);
-    // Failed jobs KEEP their checkpoints (storyboard.json / narration.mp3 power
+    // Failed jobs KEEP their checkpoints (storyboard.json / narration.wav power
     // the Resume button) but drop the bulky frame/segment dirs.
     if (process.env.KEEP_OUTPUTS !== "1") {
       await rm(path.join(outputDir, "frames"), { recursive: true, force: true }).catch(() => {});

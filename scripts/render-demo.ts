@@ -15,7 +15,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { composeSceneGraphPlan, sanitizeSceneGraphPlan } from "../shared/sceneGraph";
 import { compileVideo } from "../shared/layout";
-import { estimateTimepoints, scaleTimepoints } from "../shared/ssml";
+import { expandBeatTimepoints } from "../shared/ssml";
 import { findLibraryIcon } from "../shared/iconLibrary";
 import { renderVideo } from "../worker/render";
 import { synthesizeScriptNarration } from "../worker/google";
@@ -202,12 +202,13 @@ async function main() {
       beats: scene.beats.map((beat) => ({ narration: beat.narration, cues: [] })),
     })),
   };
-  console.log("Synthesizing narration (Google Cloud TTS)...");
+  console.log("Synthesizing narration (Google Cloud TTS, per-beat clips)...");
   const audio = await synthesizeScriptNarration(outline, outputDir);
-  console.log(`Narration: ${audio.durationSeconds.toFixed(1)}s`);
+  console.log(`Narration: ${audio.durationSeconds.toFixed(1)}s (${audio.beatTimepoints.length} exact beat marks)`);
 
-  const estimate = estimateTimepoints(storyboard);
-  const timepoints = scaleTimepoints(estimate.timepoints, estimate.durationSeconds, audio.durationSeconds);
+  // Exact per-beat timing (the per-clip narrator measures each clip and composes
+  // the master to match), expanded to per-reveal marks — the production path.
+  const timepoints = expandBeatTimepoints(storyboard, audio.beatTimepoints, audio.durationSeconds);
 
   const compiled = compileVideo(storyboard, timepoints, audio.durationSeconds, {
     width: 1920,

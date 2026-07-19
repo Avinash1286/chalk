@@ -8,7 +8,7 @@ import type { ResolvedTimeline } from "../shared/timeline";
 import { storyboardToVideoPlan, type VideoPlan } from "../shared/videoPlan";
 import { draftScript, designStoryboardFromScript, type Outline } from "./agents";
 import { probeDurationSeconds } from "./ffmpeg";
-import { synthesizeScriptNarration, type ScriptAudioResult } from "./google";
+import { loadNarrationCheckpoint, synthesizeScriptNarration, type ScriptAudioResult } from "./google";
 import type { OrchestrationStage } from "./orchestrator/types";
 import { resolveScenesInParallel } from "./orchestrator/resolveScenes";
 import { prepareStoryboardAssets, type AssetResolutionRecord } from "./assetResolver";
@@ -73,7 +73,7 @@ function resolveNarrationTiming(
 }
 
 // Checkpoint reuse (Resume): a failed job's outputDir may already hold a valid
-// storyboard.json (written right after design) and narration.mp3. Reusing them
+// storyboard.json (written right after design) and narration.wav. Reusing them
 // skips scripting, scene design and TTS entirely — a render-stage failure
 // resumes in seconds instead of re-billing every model call.
 async function loadCheckpointStoryboard(outputDir: string): Promise<Storyboard | null> {
@@ -104,17 +104,10 @@ function scriptFromStoryboard(storyboard: Storyboard): Outline {
 }
 
 async function reuseOrSynthesizeNarration(script: Outline, outputDir: string): Promise<ScriptAudioResult> {
-  const mp3Path = path.join(outputDir, "narration.mp3");
-  try {
-    const durationSeconds = await probeDurationSeconds(mp3Path);
-    if (durationSeconds > 1) {
-      // Reused audio has no mark timepoints; timing falls back to the
-      // word-weighted estimate scaled to this real duration (same as Chirp).
-      return { audioPath: mp3Path, beatTimepoints: [], durationSeconds, source: "google-tts" };
-    }
-  } catch {
-    // missing or corrupt -> synthesize fresh below
-  }
+  // Reuse the composed narration.wav + its exact per-beat timing sidecar; only
+  // synthesize fresh when the checkpoint is missing or unusable.
+  const checkpoint = await loadNarrationCheckpoint(outputDir);
+  if (checkpoint) return checkpoint;
   return synthesizeScriptNarration(script, outputDir);
 }
 
