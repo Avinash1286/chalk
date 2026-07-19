@@ -35,14 +35,29 @@ parseEnvFile(path.join(root, ".env.local"));
 parseEnvFile(path.join(root, ".env"));
 
 // Cloud hosts (Railway/Render/Fly) can't mount the GCP key as a file — they
-// pass the JSON in an env var instead. Materialize it to disk once and point
-// GOOGLE_APPLICATION_CREDENTIALS at it so google-auth-library works unchanged.
-if (process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON && !process.env.GOOGLE_APPLICATION_CREDENTIALS) {
+// pass the JSON in an env var instead. google-auth-library treats
+// GOOGLE_APPLICATION_CREDENTIALS as a FILE PATH, so JSON pasted there fails with
+// ENAMETOOLONG. Materialize the JSON to disk once and repoint the path var,
+// whether the JSON arrives in GOOGLE_APPLICATION_CREDENTIALS_JSON (intended) or
+// pasted directly into GOOGLE_APPLICATION_CREDENTIALS (common mistake).
+function looksLikeJson(value: string | undefined): value is string {
+  return Boolean(value && value.trim().startsWith("{"));
+}
+
+const inlineKeyJson = looksLikeJson(process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON)
+  ? process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON
+  : looksLikeJson(process.env.GOOGLE_APPLICATION_CREDENTIALS)
+    ? process.env.GOOGLE_APPLICATION_CREDENTIALS
+    : undefined;
+
+if (inlineKeyJson) {
   const keyPath = path.join(root, ".gcp-key.json");
   try {
-    writeFileSync(keyPath, process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON, { encoding: "utf8", mode: 0o600 });
+    writeFileSync(keyPath, inlineKeyJson, { encoding: "utf8", mode: 0o600 });
     process.env.GOOGLE_APPLICATION_CREDENTIALS = keyPath;
   } catch (error) {
-    console.warn(`Could not materialize GOOGLE_APPLICATION_CREDENTIALS_JSON: ${String(error)}`);
+    // Never echo the key material in the error path.
+    console.warn("Could not materialize the inline GCP key JSON to disk.");
+    void error;
   }
 }
