@@ -1,7 +1,7 @@
 {
   "provider": "icon-library",
-  "generatedAt": "2026-07-18T16:22:47.277Z",
-  "total": 114,
+  "generatedAt": "2026-07-19T13:42:01.445Z",
+  "total": 117,
   "entries": [
     {
       "id": "1st-place-medal",
@@ -1640,6 +1640,38 @@
       }
     },
     {
+      "id": "building-capitol-dome",
+      "concept": "building",
+      "label": "capitol dome",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/building-capitol-dome.svg",
+      "pngPath": "assets/generated/icon-library/png/building-capitol-dome.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-19T13:39:01.664Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.36,
+        "coverage": 0.612
+      }
+    },
+    {
+      "id": "capitol-government-dome",
+      "concept": "capitol",
+      "label": "government dome",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/capitol-government-dome.svg",
+      "pngPath": "assets/generated/icon-library/png/capitol-government-dome.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-19T13:40:43.298Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.304,
+        "coverage": 0.656
+      }
+    },
+    {
       "id": "chart",
       "concept": "chart",
       "label": "Chart",
@@ -2104,6 +2136,22 @@
         "styleOk": true,
         "inkFrac": 0.276,
         "coverage": 0.729
+      }
+    },
+    {
+      "id": "map-state-outline",
+      "concept": "map",
+      "label": "state outline",
+      "synonyms": [],
+      "svgPath": "assets/generated/icon-library/svg/map-state-outline.svg",
+      "pngPath": "assets/generated/icon-library/png/map-state-outline.png",
+      "model": "gemini-3.1-flash-lite-image",
+      "createdAt": "2026-07-19T13:42:01.445Z",
+      "qa": {
+        "depicts": true,
+        "styleOk": true,
+        "inkFrac": 0.136,
+        "coverage": 0.463
       }
     },
     {

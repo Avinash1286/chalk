@@ -96,6 +96,7 @@
   "openmoji:1F3EB": {
     "darkFrac": 0.471,
     "fillFrac": 0.471,
+    "solidFrac": 0.059,
     "denied": false
   },
   "openmoji:1F3ED": {
@@ -261,11 +262,13 @@
   "openmoji:2696": {
     "darkFrac": 0.812,
     "fillFrac": 0.171,
+    "solidFrac": 0.169,
     "denied": false
   },
   "openmoji:264E": {
     "darkFrac": 0.221,
     "fillFrac": 0.502,
+    "solidFrac": 0.016,
     "denied": false
   },
   "openmoji:2B24": {
@@ -2986,6 +2989,180 @@
     "darkFrac": 0.508,
     "fillFrac": 0.288,
     "solidFrac": 0.128,
+    "denied": false
+  },
+  "openmoji:1F1FA-1F1F8": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F4DC": {
+    "darkFrac": 0.35,
+    "fillFrac": 0.479,
+    "solidFrac": 0.021,
+    "denied": false
+  },
+  "openmoji:1F3DF": {
+    "darkFrac": 0.372,
+    "fillFrac": 0.315,
+    "solidFrac": 0.063,
+    "denied": false
+  },
+  "openmoji:E093": {
+    "darkFrac": 0.623,
+    "fillFrac": 0.389,
+    "solidFrac": 0.249,
+    "denied": false
+  },
+  "openmoji:1F9D1-200D-2696-FE0F": {
+    "darkFrac": 0.632,
+    "fillFrac": 0.328,
+    "solidFrac": 0.367,
+    "denied": false
+  },
+  "openmoji:1F468-200D-2696-FE0F": {
+    "darkFrac": 0.637,
+    "fillFrac": 0.315,
+    "solidFrac": 0.346,
+    "denied": false
+  },
+  "openmoji:1F469-200D-2696-FE0F": {
+    "darkFrac": 0.635,
+    "fillFrac": 0.313,
+    "solidFrac": 0.35,
+    "denied": false
+  },
+  "openmoji:1FAC5": {
+    "darkFrac": 0.354,
+    "fillFrac": 0.289,
+    "solidFrac": 0.021,
+    "denied": false
+  },
+  "openmoji:1FAC5-1F3FD": {
+    "darkFrac": 0.417,
+    "fillFrac": 0.289,
+    "solidFrac": 0.129,
+    "denied": false
+  },
+  "openmoji:1F3F4-E0075-E0073-E0064-E0063-E007F": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:E080": {
+    "darkFrac": 0.418,
+    "fillFrac": 0.242,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:1F4BA": {
+    "darkFrac": 0.634,
+    "fillFrac": 0.189,
+    "solidFrac": 0.04,
+    "denied": false
+  },
+  "openmoji:E183": {
+    "darkFrac": 0.595,
+    "fillFrac": 0.319,
+    "solidFrac": 0.451,
+    "denied": false
+  },
+  "openmoji:1F6D5": {
+    "darkFrac": 0.582,
+    "fillFrac": 0.319,
+    "solidFrac": 0.08,
+    "denied": false
+  },
+  "openmoji:1F54D": {
+    "darkFrac": 0.476,
+    "fillFrac": 0.367,
+    "solidFrac": 0.208,
+    "denied": false
+  },
+  "openmoji:1F5F3": {
+    "darkFrac": 0.157,
+    "fillFrac": 0.451,
+    "solidFrac": 0.012,
+    "denied": false
+  },
+  "openmoji:1F3F4-E0075-E0073-E0063-E0061-E007F": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:1F3D9": {
+    "darkFrac": 0.446,
+    "fillFrac": 0.371,
+    "solidFrac": 0.008,
+    "denied": false
+  },
+  "openmoji:1F5FE": {
+    "darkFrac": 0.252,
+    "fillFrac": 0.563,
+    "solidFrac": 0.012,
+    "denied": false
+  },
+  "openmoji:1F3F4-E0075-E0073-E0061-E006C-E007F": {
+    "darkFrac": 0.218,
+    "fillFrac": 0.533,
+    "solidFrac": 0.015,
+    "denied": false
+  },
+  "openmoji:2694": {
+    "darkFrac": 0.736,
+    "fillFrac": 0.15,
+    "solidFrac": 0.122,
+    "denied": false
+  },
+  "openmoji:1F38C": {
+    "darkFrac": 0.478,
+    "fillFrac": 0.2,
+    "solidFrac": 0.055,
+    "denied": false
+  },
+  "openmoji:E104": {
+    "darkFrac": 0.388,
+    "fillFrac": 0.199,
+    "solidFrac": 0.067,
+    "denied": false
+  },
+  "openmoji:303D": {
+    "darkFrac": 0.408,
+    "fillFrac": 0.172,
+    "solidFrac": 0.019,
+    "denied": false
+  },
+  "openmoji:1F58B": {
+    "darkFrac": 0.573,
+    "fillFrac": 0.161,
+    "solidFrac": 0.408,
+    "denied": false
+  },
+  "openmoji:1F58A": {
+    "darkFrac": 0.364,
+    "fillFrac": 0.199,
+    "solidFrac": 0.012,
+    "denied": false
+  },
+  "openmoji:1FAB6": {
+    "darkFrac": 0.371,
+    "fillFrac": 0.186,
+    "solidFrac": 0.013,
+    "denied": false
+  },
+  "openmoji:1F46E": {
+    "darkFrac": 0.476,
+    "fillFrac": 0.267,
+    "solidFrac": 0.099,
+    "denied": false
+  },
+  "openmoji:1F693": {
+    "darkFrac": 0.474,
+    "fillFrac": 0.258,
+    "solidFrac": 0.199,
     "denied": false
   }
 }
