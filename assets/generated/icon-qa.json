@@ -27,6 +27,7 @@
   "openmoji:1F967": {
     "darkFrac": 0.211,
     "fillFrac": 0.44,
+    "solidFrac": 0,
     "denied": false
   },
   "openmoji:1F4CA": {
@@ -3212,6 +3213,36 @@
     "darkFrac": 0.353,
     "fillFrac": 0.272,
     "solidFrac": 0.005,
+    "denied": false
+  },
+  "openmoji:1F552": {
+    "darkFrac": 0.167,
+    "fillFrac": 0.357,
+    "solidFrac": 0,
+    "denied": false
+  },
+  "openmoji:E25B": {
+    "darkFrac": 0.246,
+    "fillFrac": 0.43,
+    "solidFrac": 0.008,
+    "denied": false
+  },
+  "openmoji:1F9D1-200D-1F4BC": {
+    "darkFrac": 0.585,
+    "fillFrac": 0.356,
+    "solidFrac": 0.315,
+    "denied": false
+  },
+  "openmoji:1F4BC": {
+    "darkFrac": 0.292,
+    "fillFrac": 0.421,
+    "solidFrac": 0.018,
+    "denied": false
+  },
+  "openmoji:1F911": {
+    "darkFrac": 0.267,
+    "fillFrac": 0.369,
+    "solidFrac": 0.013,
     "denied": false
   }
 }
