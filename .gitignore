@@ -56,7 +56,7 @@ assets/generated/icon-library/png/
 # Local-only / internal (not for the public repo)
 # ─────────────────────────────────────────────────────────────
 video_analysis/
-laminalabs/
+/laminalabs
 imp.md
 simiarch.md
 improvement-plan-lamina.md
